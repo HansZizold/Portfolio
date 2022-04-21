@@ -22,6 +22,7 @@ body {
   font-weight: 700;
   color: white;
   padding: 0 24px 0 24px;
+  text-decoration: none;
 }
 
 .menu {
@@ -29,6 +30,11 @@ body {
   align-self: center;
   margin: 0;
   padding: 0 5px 0 5px;
+}
+
+.boton {
+  background-color: #3c3a39;
+  border:none;
 }
 
 .content {
