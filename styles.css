@@ -1,69 +1,63 @@
-body{
-    display: flex;
-    justify-content: center;
+body {
+  display: flex;
+  justify-content: center;
 }
-
-.main-container{
-    height:95vh;
-    width: 375px;
-    display:flex;
-    flex-direction: column;
+.main-container {
+  height:95vh;
+  width: 375px;
+  display:flex;
+  flex-direction: column;
 }
-
-.mobile-header{
-    height: 92px;
-    background-color: #3C3A39;
-    font-size: 18px;
-    font-weight: 700;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    
+.mobile-header {
+  height: 92px;
+  background-color: #3C3A39;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  justify-content: space-between;
 }
-#name{
-    padding: 0px 24px 0px 24px;
+#name {
+  padding: 0px 24px 0px 24px;
 }
-
-.menu{
-    background-color:#3C3A39;
-    align-self: center;
-    margin: 0;
-    padding: 0px 5px 0px 5px;
+.menu {
+  background-color:#3C3A39;
+  align-self: center;
+  margin: 0;
+  padding: 0px 5px 0px 5px;
 }
-
-.content{
-    height: 590px;
-    background-color: #1C1A19;
-    padding: 0px 24px 0px 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-
+.content {
+  height: 590px;
+  background-color: #1C1A19;
+  padding: 0px 24px 0px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
 }
-#greeting{
-    color: #FF6B00;
-    font-size: 56px;
-    font-weight: 400px;
-    margin: 0;
+#greeting {
+  color: #FF6B00;
+  font-size: 56px;
+  font-weight: 400px;
+  margin: 0;
 }
-#whoami{
-    color: #FFF5E1;
-    font-size: 24px;
-    font-weight: 700px;
-    margin: 0;
+#whoami {
+  color: #FFF5E1;
+  font-size: 24px;
+  font-weight: 700px;
+  margin: 0;
 }
-p{
-    color: #FFFFFF;
-    font-size: 16px;
-    font-weight: 400px;
+p {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400px;
 }
-figure{
-    display: flex;
-    justify-content: flex-start;
-    margin: 0%;
+figure {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0%;
 }
-img{
-    height: 20px;
-    width: 20px;
-    padding: 6px;
+img {
+  height: 20px;
+  width: 20px;
+  padding: 6px;
 }
