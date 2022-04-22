@@ -256,14 +256,14 @@ li {
   align-items: center;
 }
 
-#langs3 {
+.langs3 {
   color: white;
   font-size: 32px;
   line-height: 24px;
   font-weight: 700;
 }
 
-#langs4 {
+.langs4 {
   color: white;
   font-size: 22px;
   line-height: 42.67px;
@@ -278,7 +278,7 @@ li {
   align-items: center;
 }
 
-#vin1 {
+.vin1 {
   width: 24px;
   height: 24px;
   padding: 0 12px 0 0;
