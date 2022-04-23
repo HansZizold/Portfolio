@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   display: grid;
   justify-content: center;
@@ -10,14 +15,13 @@ body {
   grid-template-columns: auto;
   grid-template-rows: 10;
   align-items: center;
-  width: 375px;
+  width: 417px;
   margin: 0;
-  border: 2px solid red;
 }
 
 .mobile-header {
   height: 92px;
-  width: 375px;
+  width: 100%;
   background-color: #3c3a39;
   display: flex;
   justify-content: space-between;
@@ -45,8 +49,8 @@ body {
 }
 
 .first-container {
-  height: 590px;
-  width: 327px;
+  height: 660px;
+  width: 100%;
   background-image: url("images/background.png");
   background-size: 100%;
   padding: 0 24px 0 24px;
@@ -59,25 +63,27 @@ body {
 #greeting {
   color: #ff6b00;
   font-size: 56px;
-  font-weight: 400px;
-  margin: 0;
+  font-weight: 400;
+  margin: 5px 0;
 }
 
 #whoami {
   color: #fff5e1;
   font-size: 24px;
-  font-weight: 700px;
-  margin: 0;
+  font-weight: 700;
+  margin: 5px 0;
 }
 
 #par1 {
   color: #fff;
   font-size: 16px;
-  font-weight: 400px;
+  font-weight: 400;
+  margin: 5px 0 10px 0;
 }
 
 .images1 {
   margin: 0;
+  padding: 0;
   display: flex;
 }
 
@@ -86,8 +92,8 @@ li {
 }
 
 .img1 {
-  height: 25px;
-  width: 25px;
+  height: 35px;
+  width: 35px;
   padding: 6px;
 }
 
@@ -95,13 +101,12 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0;
 }
 
 .second-container {
-  /* width: 375px; */
   align-self: center;
   margin: 0;
-  padding-right: 30px;
 }
 
 #recent {
@@ -114,14 +119,16 @@ li {
 }
 
 .third-container {
-  padding: 0 22px 0 22px;
+  width: 88%;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .img2 {
-  align-self: flex-start;
+  align-self: center;
+  width: 100%;
 }
 
 #multi {
@@ -140,13 +147,14 @@ li {
   display: flex;
   list-style: none;
   align-self: flex-start;
+  padding: 0;
 }
 
 .langbuttons {
   border: 1px solid #8993a4;
   padding: 10px 12px 10px 12px;
   height: 40px;
-  margin: 8px;
+  margin: 8px 8px 8px 0;
   color: #091e42;
   background-color: #fff;
 }
@@ -165,8 +173,8 @@ li {
 .fourth-container {
   background-image: url("images/placeholder2.png");
   height: 386px;
-  width: 285px;
-  margin: 18px 60px 0 20px;
+  width: 88%;
+  margin: 18px 0 0 0;
   padding: 0 22px 0 22px;
   display: flex;
   flex-direction: column;
@@ -194,6 +202,7 @@ li {
   display: flex;
   list-style: none;
   align-self: flex-start;
+  padding: 0;
 }
 
 .langbuttons2 {
@@ -201,13 +210,13 @@ li {
   background-color: rgba(255, 255, 255, 0.24);
   padding: 10px 12px 10px 12px;
   height: 40px;
-  margin: 8px 4px 24px 4px;
+  margin: 8px 10px 24px 0;
   color: white;
 }
 
 .project2 {
   background: #ff6b00;
-  width: 115%;
+  width: 114%;
   height: 48px;
   font-size: 17px;
   font-weight: 700;
@@ -218,17 +227,17 @@ li {
 .container56 {
   background-color: #1c1a19;
   margin-top: 130px;
-  width: 375px;
+  width: 100%;
 }
 
 .fifth-container {
   margin-bottom: 0;
   height: 748px;
-  width: 327px;
+  width: 100%;
   background-image: url("images/background_about2.png");
   background-size: 100%;
   background-repeat: no-repeat;
-  padding: 0 24px 0 24px;
+  padding: 0 28px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -237,7 +246,7 @@ li {
 #about {
   font-size: 72px;
   color: #ff6b00;
-  margin-bottom: 0;
+  margin: 50px 0 30px 0;
 }
 
 #par4 {
@@ -245,6 +254,7 @@ li {
   font-size: 16px;
   line-height: 24px;
   width: 327px;
+  margin: 0 0 30px 0;
 }
 
 .resume {
@@ -262,8 +272,7 @@ li {
 .sixth-container {
   margin-top: 0;
   margin-bottom: 80px;
-  width: 327px;
-  padding: 0 24px 0 4px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -275,6 +284,7 @@ li {
   font-size: 32px;
   line-height: 24px;
   font-weight: 700;
+  padding: 15px 0;
 }
 
 .langs4 {
@@ -282,6 +292,7 @@ li {
   font-size: 22px;
   line-height: 42.67px;
   font-weight: 400;
+  padding: 15px 0;
   text-align: center;
   list-style: none;
 }
@@ -293,7 +304,7 @@ li {
 }
 
 .vin1 {
-  width: 24px;
+  width: 36px;
   height: 24px;
   padding: 0 12px 0 0;
 }
