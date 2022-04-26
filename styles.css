@@ -308,3 +308,17 @@ li {
   height: 24px;
   padding: 0 12px 0 0;
 }
+
+.seventh-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.always {
+  font-size: 32px;
+  color: #172B4D;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: center;
+  margin: 100px 0 0 0;
+}
