@@ -322,3 +322,9 @@ li {
   text-align: center;
   margin: 100px 0 0 0;
 }
+
+.form-item {
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 10px;
+}
