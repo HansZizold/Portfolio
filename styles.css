@@ -320,11 +320,65 @@ li {
   font-weight: 700;
   line-height: 44px;
   text-align: center;
-  margin: 100px 0 0 0;
+  margin: 100px 0 50px 0;
+}
+
+.forms {
+  padding: 0 16px;
+  margin: 0 10px;
+}
+
+::placeholder {
+  font-size: 15px;
 }
 
 .form-item {
   border: none;
   border-bottom: 1px solid black;
-  margin: 10px;
+  border-color: #DBD8D7;
+  margin: 10px 0;
+  padding: 16px;
+  width: 100%;
+}
+
+.text-item {
+  border: none;
+  border-color: #DBD8D7;
+  background-color: #FBF8F7;
+  margin: 10px 0;
+  padding: 16px;
+  height: 114px;
+  width: 100%;
+}
+
+.litouch {
+  display: flex;
+  justify-content: center;
+}
+
+.touch {
+  background: #ff6b00;
+  align-self: center;
+  height: 48px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  margin: 12px 0 136px 0;
+  padding: 12px;
+}
+
+.images3 {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid black;
+  border-color: #DFE1E6;
+}
+
+.img3 {
+  height: 77px;
+  width: 35px;
+  padding: 24px 6px 30px 6px;
 }
