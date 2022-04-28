@@ -1,0 +1,13 @@
+.second-container {
+    display: flex;
+    margin: 0 80px 0 80px;
+  }
+
+.box {
+    height: 2px;
+    width: 200px;
+    border-bottom: 2px solid blue;
+    margin: 25px;
+  
+  }  
+
