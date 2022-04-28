@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio: mobile version</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="styles.css" media="screen and (min-device-width: 768px)" href="desktop.css"> -->
 </head>
 <body>
     <main class="main-container">
@@ -19,17 +20,21 @@
         </header>
 
         <section class="first-container">
-            <h1 id="greeting">Hey There. I'm Hans</h1>
-            <h2 id="whoami">I am a software developer</h2>
-            <p id="par1">I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
-            </p>
-            <ul class="images1">
-                <li><img src="images/cat.png" alt="cat" class="img1"></li>
-                <li><img src="images/instagram.png" alt="instagram" class="img1"></li>
-                <li><img src="images/hand.png" alt="hand" class="img1"></li>
-                <li><img src="images/twitter.png" alt="twitter" class="img1"></li>
-                <li><img src="images/eme.png" alt="eme" class="img1"></li>
-            </ul>
+            <div class="first-container-1">
+                <h1 id="greeting">Hey There. <br> I'm Hans</h1>
+                <h2 id="whoami">I am a software developer</h2>
+                <p id="par1">I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
+                </p>
+            </div>
+            <div class="first-container-2">
+                <ul class="images1">
+                    <li><img src="images/cat.png" alt="cat" class="img1"></li>
+                    <li><img src="images/instagram.png" alt="instagram" class="img1"></li>
+                    <li><img src="images/hand.png" alt="hand" class="img1"></li>
+                    <li><img src="images/twitter.png" alt="twitter" class="img1"></li>
+                    <li><img src="images/eme.png" alt="eme" class="img1"></li>
+                </ul>
+            </div>
         </section>
 
         <section class="works">
@@ -164,6 +169,43 @@
                 </ul>
             </div>
         </section>
+
+        <section >
+            <div class="seventh-container">
+                <h3 class="always">I'm always interested in hearing things about new projects, so if you'd like to chat please get in</h3>
+                <form action="https://formspree.io/f/xeqnpkpe" method="post">
+                    <ul class="forms">
+                        <li>
+                            <label for="name1"></label>
+                            <input type="text" id="name1" name="user_name" placeholder="Full name" maxlength="30" required class="form-item">
+                        </li>
+                        <li>
+                            <label for="mail"></label>
+                            <input type="email" id="mail" name="user_email" placeholder="Email address" required class="form-item">
+                        </li>
+                        <li>
+                            <label for="msg"></label>
+                            <textarea id="msg" name="user_message" maxlength="500" placeholder="Enter text here" required class="text-item"></textarea>
+                        </li>
+                        <li class="litouch">
+                            <input class="touch" type="submit" value="Get in touch">
+                        </li>
+                    </ul>
+                </form>                
+               
+            </div>
+        </section>
+        <div class="footer-section">
+            <footer>
+                <ul class="images3">
+                    <li><img src="images/Cat2.png" alt="cat" class="img3"></li>
+                    <li><img src="images/instagram2.png" alt="instagram" class="img3"></li>
+                    <li><img src="images/hand2.png" alt="hand" class="img3"></li>
+                    <li><img src="images/twitter2.png" alt="twitter" class="img3"></li>
+                    <li><img src="images/eme2.png" alt="eme" class="img3"></li>
+                </ul>
+            </footer>
+        </div>
 
     </main>
 </body>

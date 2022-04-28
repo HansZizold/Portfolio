@@ -4,8 +4,8 @@
 }
 
 body {
-  display: grid;
-  justify-content: center;
+  /* display: grid;
+  justify-content: center; */
   margin: 0;
   padding: 0;
 }
@@ -15,7 +15,7 @@ body {
   grid-template-columns: auto;
   grid-template-rows: 10;
   align-items: center;
-  width: 417px;
+  /* width: 417px; */
   margin: 0;
 }
 
@@ -27,6 +27,12 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
+@media (min-width: 768px) {
+  .mobile-header {
+    height: 77px;
+  }
+}  
 
 #name {
   font-size: 24px;
@@ -46,6 +52,11 @@ body {
 .boton {
   background-color: #3c3a39;
   border: none;
+  border: 5px solid #3c3a39;
+}
+
+.boton:hover {
+  border: 5px solid grey;
 }
 
 .first-container {
@@ -53,12 +64,24 @@ body {
   width: 100%;
   background-image: url("images/background.png");
   background-size: 100%;
+  background-position:center;
   padding: 0 24px 0 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 }
+
+@media (min-width: 768px) {
+  .first-container {
+    height: 660px;
+    background-color: #1C1A19;
+    background-image: url("images/background-desktop.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    flex-direction: row-reverse;
+  }
+}  
 
 #greeting {
   color: #ff6b00;
