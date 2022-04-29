@@ -36,6 +36,8 @@
             </div>
         </section>
 
+        <!-- cotainers first-container-1 and first-container-2 were not used. Erase it at the end. -->
+
         <section class="works">
             <div class="second-container">
                 <h2 id="recent">My Recent Works</h2>
@@ -43,9 +45,7 @@
             </div>
 
             <div class="third-container">
-                <!-- <div class="third-container-1"> -->
-                    <img src="images/placeholder.png" alt="placeholder" class="img2">
-                <!-- </div> -->
+                <img src="images/placeholder.png" alt="placeholder" class="img2">
                 <div class="third-container-2">
                     <h3 id="multi">Multi-Post Sories</h3>
                     <p id="par2">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
@@ -129,6 +129,97 @@
                 </div>
             </div>
         </section>
+
+        <section class="container56">
+            <div class="fifth-container">
+                <h3 id="about">About me</h3>
+                <p id="par4">Hello I am a software developer! I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+                <button class="resume">Get My Resume</button>
+            </div>
+
+            <div class="sixth-container">
+                <div class="sixth-1">
+                    <div class="head1">
+                        <img class="vin1" src="images/rhombus.png" alt="rhombus">
+                        <p class="langs3">Language
+                    </div>
+              
+                    <ul class="langs4">
+                        <li>Javascript</li>
+                        <li>Ruby</li>
+                        <li>Html</li>
+                        <li>Css</li>
+                    </ul>
+                </div>
+
+                <div class="sixth-2">
+                    <div class="head1">
+                        <img class="vin1" src="images/square.png" alt="square">
+                        <p class="langs3">Frameworks
+                    </div>
+
+                    <ul class="langs4">
+                        <li>Bootstrap</li>
+                        <li>Ruby on Rails</li>
+                        <li>RSPec</li>
+                        <li>CapyBara</li>
+                        <li>Selenium</li>
+                    </ul>
+                </div>
+
+                <div class="sixth-3">
+                    <div class="head1">
+                        <img class="vin1" src="images/circle.png" alt="circle">
+                        <p class="langs3">Skills
+                    </div>
+
+                    <ul class="langs4">
+                        <li>Codekit</li>
+                        <li>Github</li>
+                        <li>Codepen</li>
+                        <li>Gitlab</li>
+                        <li>Terminal</li>
+                    </ul>
+                </div>                    
+            </div>
+        </section>
+
+        <section >
+            <div class="seventh-container">
+                <h3 class="always">I'm always interested in hearing things about new projects, so if you'd like to chat please get in</h3>
+                <form action="https://formspree.io/f/xeqnpkpe" method="post">
+                    <ul class="forms">
+                        <li>
+                            <label for="name1"></label>
+                            <input type="text" id="name1" name="user_name" placeholder="Full name" maxlength="30" required class="form-item">
+                        </li>
+                        <li>
+                            <label for="mail"></label>
+                            <input type="email" id="mail" name="user_email" placeholder="Email address" required class="form-item">
+                        </li>
+                        <li>
+                            <label for="msg"></label>
+                            <textarea id="msg" name="user_message" maxlength="500" placeholder="Enter text here" required class="text-item"></textarea>
+                        </li>
+                        <li class="litouch">
+                            <input class="touch" type="submit" value="Get in touch">
+                        </li>
+                    </ul>
+                </form>                
+               
+            </div>
+        </section>
+        <div class="footer-section">
+            <footer>
+                <ul class="images3">
+                    <li><img src="images/Cat2.png" alt="cat" class="img3"></li>
+                    <li><img src="images/instagram2.png" alt="instagram" class="img3"></li>
+                    <li><img src="images/hand2.png" alt="hand" class="img3"></li>
+                    <li><img src="images/twitter2.png" alt="twitter" class="img3"></li>
+                    <li><img src="images/eme2.png" alt="eme" class="img3"></li>
+                </ul>
+            </footer>
+        </div>
 
     </main>
 </body>
