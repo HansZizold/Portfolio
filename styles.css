@@ -39,6 +39,12 @@ body {
   text-decoration: none;
 }
 
+@media (min-width: 768px) {
+  #name {
+    margin-left: 150px;
+  }
+}
+
 .boton {
   background-color: #3c3a39;
   border: none;
@@ -63,12 +69,13 @@ body {
   .menu {
     display: flex;
     align-items: center;
+    margin-right: 150px;
   }
 }
 
 @media (min-width: 768px) {
-  .li {
-    list-style: none;
+  .options {
+    margin: 0 10px;
   }
 }
 
