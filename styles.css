@@ -45,8 +45,41 @@ body {
   border: 5px solid #3c3a39;
 }
 
+@media (min-width: 768px) {
+  .boton {
+    display: none;
+  }
+}
+
 .boton:hover {
   border: 5px solid grey;
+}
+
+.menu {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .li {
+    list-style: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .options {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #fff;
+  }
 }
 
 .first-container {
