@@ -36,8 +36,6 @@
             </div>
         </section>
 
-        <!-- cotainers first-container-1 and first-container-2 were not used. Erase it at the end. -->
-
         <section class="works">
             <div class="second-container">
                 <h2 id="recent">My Recent Works</h2>
@@ -184,7 +182,7 @@
             </div>
         </section>
 
-        <section >
+        <section>
             <div class="seventh-container">
                 <h3 class="always">I'm always interested in hearing things about new projects, so if you'd like to chat please get in</h3>
                 <form action="https://formspree.io/f/xeqnpkpe" method="post">
