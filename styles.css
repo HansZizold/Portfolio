@@ -94,7 +94,7 @@ body {
 
 @media (min-width: 768px) {
   .options:hover {
-    color:  #3c3a39;
+    color: #3c3a39;
     font-size: 18px;
     background-color: #fff;
   }
@@ -102,9 +102,6 @@ body {
 
 .img0:hover {
   transition: 1s;
-}
-
-.img0:hover {
   transform: scale(1.25);
 }
 
@@ -313,9 +310,6 @@ li {
   color: #fff;
   border: none;
   margin: 12px 0 12px 0;
-}
-
-.project {
   animation-duration: 2s;
   animation-name: slideproject;
   animation-iteration-count: infinite;
@@ -326,6 +320,7 @@ li {
     height: 48px;
     width: 108px;
   }
+
   to {
     height: 60px;
     width: 125px;
