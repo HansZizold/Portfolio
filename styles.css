@@ -37,12 +37,17 @@ body {
   color: white;
   padding: 0 24px 0 24px;
   text-decoration: none;
+  transition: font-size 2s;
 }
 
 @media (min-width: 768px) {
   #name {
     margin-left: 150px;
   }
+}
+
+#name:hover {
+  font-size: 36px;
 }
 
 .boton {
@@ -76,17 +81,28 @@ body {
 @media (min-width: 768px) {
   .options {
     margin: 0 10px;
-  }
-}
-
-@media (min-width: 768px) {
-  .options {
     text-decoration: none;
     font-size: 15px;
     font-weight: 600;
     line-height: 20px;
     color: #fff;
+    padding: 8px;
+    border-radius: 20%;
+    transition: color 1s, font-size 1s, background-color 1s;
   }
+}
+
+@media (min-width: 768px) {
+  .options:hover {
+    color: #3c3a39;
+    font-size: 18px;
+    background-color: #fff;
+  }
+}
+
+.img0:hover {
+  transition: 1s;
+  transform: scale(1.25);
 }
 
 .first-container {
@@ -162,6 +178,12 @@ li {
   height: 35px;
   width: 35px;
   padding: 6px;
+  transition: height 1s, width 1s;
+}
+
+.img1:hover {
+  height: 50px;
+  width: 50px;
 }
 
 .works {
@@ -282,11 +304,27 @@ li {
   background: #ff6b00;
   align-self: flex-start;
   height: 48px;
+  width: 110px;
   font-size: 17px;
   font-weight: 700;
   color: #fff;
   border: none;
   margin: 12px 0 12px 0;
+  animation-duration: 2s;
+  animation-name: slideproject;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slideproject {
+  from {
+    height: 48px;
+    width: 108px;
+  }
+
+  to {
+    height: 60px;
+    width: 125px;
+  }
 }
 
 .fourth-1 {
