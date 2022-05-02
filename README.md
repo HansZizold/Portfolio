@@ -19,6 +19,7 @@ Portfolio Desktop Version:
         In the main header, nav menu implemented according to figma design.
 
 Portfolio published with Github Pages: May 2nd.
+    Live Demo: https://hanszizold.github.io/Portfolio/
 
 Author: Hans Paul Zizold
 
