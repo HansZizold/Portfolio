@@ -1,14 +1,14 @@
-#PORTFOLIO PROJECT
+# PORTFOLIO PROJECT
 
-##DESCRIPTION
+## DESCRIPTION
 In this project first a mobile version will de deployed and then a desktop version.
 The template #2 from figma was chosen as a model.
 
-##BUILT WITH
+## BUILT WITH
 Visual Studio Code
 Github Desktop application
 
-##HISTORY OF CHANGES
+## HISTORY OF CHANGES
 Portfolio Mobile Version: finished on April 22th.
 
 Portfolio Desktop Version: 
@@ -20,7 +20,7 @@ Portfolio Desktop Version:
 
 Portfolio published with Github Pages: May 2nd.
 
-##Live Demo: 
+## LIVE DEMO: 
     https://hanszizold.github.io/Portfolio/
 
 Author: Hans Paul Zizold
