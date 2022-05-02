@@ -10,12 +10,15 @@ Github Desktop application
 
 HISTORY OF CHANGES
 Portfolio Mobile Version: finished on April 22th.
+
 Portfolio Desktop Version: 
     First submission on April 28th: 
         index.html, styles.css modified in order to support desktop. Icons and images added.
     Second submission on April 29th
         Readme.md file improved.
         In the main header, nav menu implemented according to figma design.
+
+Portfolio published with Github Pages: May 2nd.
 
 Author: Hans Paul Zizold
 
