@@ -21,8 +21,7 @@ Portfolio Desktop Version:
 
 Portfolio published with Github Pages: **May 2nd**.
 
-## LIVE DEMO: 
-    Live Demo at [Hans Zizold's Portfolio](https://hanszizold.github.io/Portfolio/).
+## LIVE DEMO ##: https://hanszizold.github.io/Portfolio/
 
 Author: Hans Paul Zizold
 
