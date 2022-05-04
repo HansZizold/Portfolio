@@ -43,7 +43,7 @@ body {
 
 @media (min-width: 768px) {
   #name {
-    margin-left: 150px;
+    padding-left: 120px;
   }
 }
 
@@ -75,7 +75,8 @@ body {
   .menu {
     display: flex;
     align-items: center;
-    margin-right: 150px;
+    padding: 0 80px 0 0;
+    margin: 0;
   }
 }
 
@@ -111,13 +112,14 @@ li {
 }
 
 .first-container {
-  height: 660px;
-  width: 100%;
-  background-image: url("images/background.png");
-  background-size: 100%;
-  background-position: center;
+  height: 625px;
+  /* width: 100%; */
+  background-color: #1c1a19;
+  background-image: url("images/background_mobile.png");
+  /* background-size: 100%; */
+  background-position: bottom right;
   background-repeat: no-repeat;
-  padding: 0 24px 0 24px;
+  padding: 0 24px 0 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -127,10 +129,11 @@ li {
 @media (min-width: 768px) {
   .first-container {
     padding: 0;
-    height: 660px;
-    background-color: #1c1a19;
-    background-image: url("images/background-desktop.png");
+    height: 640px;
+    background-image: url("images/background_desktop.png");
+    background-position: right;
     background-repeat: no-repeat;
+    background-size: contain;
     flex-direction: row-reverse;
     align-items: center;
   }
@@ -159,7 +162,7 @@ li {
 
 @media (min-width: 768px) {
   #par1 {
-    width: 50%;
+    width: 40%;
   }
 }
 
@@ -172,7 +175,7 @@ li {
 @media (min-width: 768px) {
   .images1 {
     flex-direction: column;
-    padding: 0 64px 0 56px;
+    padding: 0 40px 0 40px;
   }
 }
 
