@@ -116,6 +116,7 @@ li {
   background-image: url("images/background.png");
   background-size: 100%;
   background-position: center;
+  background-repeat: no-repeat;
   padding: 0 24px 0 24px;
   display: flex;
   flex-direction: column;
