@@ -6,23 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hans Zizold'sPortfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
     <main class="main-container">
-        <header class="mobile-header">
-            <a href="#" id="name">Hans Paul Zizold</a>
-            <nav>
-                <button class="boton">
-                    <img src="images/menu.png" alt="Menu">
-                </button>
-                <ul class="menu">
-                    <li><a href="" class="options">Portfolio</a></li>
-                    <li><a href="" class="options">About</a></li>
-                    <li><a href="" class="options">contact</a></li>
-                    <li><img src="images/email.png" alt="email" class="img0"></li>
-                </ul>
-            </nav>            
-        </header>
+        <section class="mainheader">
+            <header class="mobile-header" id="mobheader">
+                <a href="#" id="name">Hans Paul Zizold</a>
+                <nav class="dropdown">
+                    <button onclick="dropmenu()" class="boton">
+                        <img src="images/menu.png" alt="Menu">
+                    </button>
+                </nav>            
+            </header>
+
+            <ul id="mymenu" class="menu">
+                <li class="lic"><a href="#" onclick="closemenu()" class="ex">x</a></li>
+                <li class="li1"><a href="#recent" onclick="closemenu()" class="options">Portfolio</a></li>
+                <li class="li1"><a href="#about" onclick="closemenu()" class="options">About</a></li>
+                <li class="li1"><a href="#always" onclick="closemenu()" class="options">Contact</a></li>
+            </ul>
+        </section>
 
         <section class="first-container">
             <div class="first-container-1">
@@ -33,11 +37,11 @@
             </div>
             <div class="first-container-2">
                 <ul class="images1">
-                    <li><img src="images/cat.png" alt="cat" class="img1"></li>
-                    <li><img src="images/instagram.png" alt="instagram" class="img1"></li>
-                    <li><img src="images/hand.png" alt="hand" class="img1"></li>
-                    <li><img src="images/twitter.png" alt="twitter" class="img1"></li>
-                    <li><img src="images/eme.png" alt="eme" class="img1"></li>
+                    <li class="l12"><img src="images/cat.png" alt="Github" class="img1"></li>
+                    <li class="l12"><img src="images/instagram.png" alt="instagram" class="img1"></li>
+                    <li class="l12"><img src="images/hand.png" alt="hand" class="img1"></li>
+                    <li class="l12"><img src="images/twitter.png" alt="twitter" class="img1"></li>
+                    <li class="l12"><img src="images/eme.png" alt="Microverse" class="img1"></li>
                 </ul>
             </div>
         </section>
@@ -74,7 +78,6 @@
                     </ul>
                     <button class="project2">See Project</button>
                 </div>
-
                 <div class="fourth-container">
                     <h3 class="profesional">Profesional Art Printing Data</h3>
                     <p class="par3">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard</p>
@@ -132,6 +135,7 @@
                     <button class="project2">See Project</button>
                 </div>
             </div>
+
         </section>
 
         <section class="container56">
@@ -190,18 +194,18 @@
 
         <section>
             <div class="seventh-container">
-                <h3 class="always">I'm always interested in hearing things about new projects, so if you'd like to chat please get in</h3>
+                <h3 class="always" id="always">I'm always interested in hearing things about new projects, so if you'd like to chat please get in</h3>
                 <form action="https://formspree.io/f/xeqnpkpe" method="post">
                     <ul class="forms">
-                        <li>
+                        <li class="li4">
                             <label for="name1"></label>
                             <input type="text" id="name1" name="user_name" placeholder="Full name" maxlength="30" required class="form-item">
                         </li>
-                        <li>
+                        <li class="li4">
                             <label for="mail"></label>
                             <input type="email" id="mail" name="user_email" placeholder="Email address" required class="form-item">
                         </li>
-                        <li>
+                        <li class="li4">
                             <label for="msg"></label>
                             <textarea id="msg" name="user_message" maxlength="500" placeholder="Enter text here" required class="text-item"></textarea>
                         </li>

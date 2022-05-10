@@ -10,7 +10,11 @@ In this project first a mobile version will de deployed and then a desktop versi
 *Github Desktop application*
 
 ## HISTORY OF CHANGES
-Portfolio Mobile Version: finished on April 22th.
+Mobile Menu implementation using JavaScript: **May 9th**.
+
+Minor width corrections for improve responsiveness: **May 9th**.
+
+Portfolio published with Github Pages: **May 2nd**.
 
 Portfolio Desktop Version: 
     First submission on April 28th: 
@@ -19,14 +23,21 @@ Portfolio Desktop Version:
         Readme.md file improved.
         In the main header, nav menu implemented according to figma design.
 
-Portfolio published with Github Pages: **May 2nd**.
+Portfolio Mobile Version: finished on April 22th.
 
 ## LIVE DEMO: 
 
 Hans Zizold's Portfolio: https://hanszizold.github.io/Portfolio/
 
 Author: Hans Paul Zizold
+    GITHUB: https://github.com/HansZizold
+    Linkedin: https://www.linkedin.com/in/hans-paul-zizold-37129037/
 
-Linkedin: https://www.linkedin.com/in/hans-paul-zizold-37129037/
+Colaborators: 
+    Isa Marvin
+    GITHUB: https://github.com/IsaMarvin    
+    
+    Mauricio Gallegos
+    GITHUB: https://github.com/maury18
 
 **Thanks MICROVERSE!!!**
