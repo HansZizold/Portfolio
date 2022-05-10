@@ -30,7 +30,14 @@ Portfolio Mobile Version: finished on April 22th.
 Hans Zizold's Portfolio: https://hanszizold.github.io/Portfolio/
 
 Author: Hans Paul Zizold
+    GITHUB: https://github.com/HansZizold
+    Linkedin: https://www.linkedin.com/in/hans-paul-zizold-37129037/
 
-Linkedin: https://www.linkedin.com/in/hans-paul-zizold-37129037/
+Colaborators: 
+    Isa Marvin
+    GITHUB: https://github.com/IsaMarvin    
+    
+    Mauricio Gallegos
+    GITHUB: https://github.com/maury18
 
 **Thanks MICROVERSE!!!**
