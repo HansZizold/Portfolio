@@ -198,11 +198,15 @@ li {
   display: none;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .close {
     display: flex;
     height: 77px;
   }
+} */
+
+.popup-opacity {
+  opacity: 0.5;
 }
 
 .first-container {
@@ -411,11 +415,33 @@ li {
 }
 
 .popup-container {
+  position: fixed;
+  width: 95%;
+  height: 98vh;
+  /* width: 90%;
+  height: 96vh; */
+  top: 1%;
+  left: 2.5%;
+  /* top: 2%;
+  left: 5%; */
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
   margin: 0;
+}
+
+@media (min-width: 768px) {
+  .popup-container {
+    width: 75%;
+    height: 75vh;
+    top: 10%;
+    left: 12%;
+  }
+}
+
+.modal {
+  background-color: rgba(255, 255, 255, 1)
 }
 
 .popup-header {
@@ -425,10 +451,22 @@ li {
   justify-content: space-between;
 }
 
+@media (min-width: 768px) {
+  .popup-header {
+    width: 95%;
+  }
+}
+
 .multi2 {
-  margin: 0 0 50px 0;
+  margin: 0 0 40px 0;
   font-size: 32px;
   color: #172b4d;
+}
+
+@media (min-width: 768px) {
+  .multi2 {
+    margin: 0;
+  }
 }
 
 .closebutton {
@@ -450,15 +488,47 @@ li {
   justify-content: flex-start;
 }
 
+@media (min-width: 768px) {
+  .popup-langs {
+    margin: 8px 0 48px 0;
+    width: 95%;
+  }
+}
+
 .popupli {
   margin: 0 4px;
   padding: 6px;
   border: 1px solid #979493;
 }
 
+@media (min-width: 768px) {
+  .popup-mainbody {
+    display: flex;
+    flex-direction: row;
+    margin-left: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .popup-body {
+    margin: 0 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
 .popup-body img {
   margin-left: 20px;
   width: 90%;
+}
+
+@media (min-width: 768px) {
+  .popup-mainbody img {
+    /* margin-left: 20px; */
+    height: 53vh;
+    max-width: 64%;
+  }
 }
 
 .popup-body p {
@@ -467,6 +537,13 @@ li {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+}
+
+@media (min-width: 768px) {
+  .popup-buttons {
+    display: flex;
+    margin-left: 20px;
+  }
 }
 
 .popup-live, .popup-source {
