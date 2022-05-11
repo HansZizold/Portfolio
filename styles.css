@@ -54,6 +54,7 @@ body {
   background-color: #3c3a39;
   border: none;
   border: 5px solid #3c3a39;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {
@@ -406,21 +407,76 @@ li {
   color: #fff;
   border: none;
   margin: 12px 0 12px 0;
-  animation-duration: 2s;
-  animation-name: slideproject;
-  animation-iteration-count: infinite;
+  cursor: pointer;
 }
 
-@keyframes slideproject {
-  from {
-    height: 48px;
-    width: 108px;
-  }
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+}
 
-  to {
-    height: 60px;
-    width: 125px;
-  }
+.popup-header {
+  width: 90%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.multi2 {
+  margin: 0 0 50px 0;
+  font-size: 32px;
+  color: #172b4d;
+}
+
+.closebutton {
+  align-self: flex-start;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #67798e;
+}
+
+.popup-langs {
+  font-size: 13px;
+  font-weight: 600;
+  width: 88%;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.popupli {
+  margin: 0 4px;
+  padding: 6px;
+  border: 1px solid #979493;
+}
+
+.popup-body img {
+  margin-left: 20px;
+  width: 90%;
+}
+
+.popup-body p {
+  margin-left: 20px;
+  width: 90%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.popup-live, .popup-source {
+  font-size: 17px;
+  font-weight: 700;
+  margin: 8px 16px 8px 0;
+  padding: 8px 32px 8px 8px;
+  color: white;
+  background-color: #ff6b00;
+  border: none;
 }
 
 .fourth-1 {

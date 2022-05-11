@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hans Zizold'sPortfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <script type="text/javascript" src="script.js"></script>
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <main class="main-container">
+    <main class="main-container" id="main-container">
         <section class="mainheader">
             <header class="mobile-header" id="mobheader">
                 <a href="#" id="name">Hans Paul Zizold</a>
@@ -52,7 +52,7 @@
                 <div class="box"></div>
             </div>
 
-            <div class="third-container">
+            <div class="third-container" id="third-container">
                 <img src="images/placeholder.png" alt="placeholder" class="img2">
                 <div class="third-container-2">
                     <h3 id="multi">Multi-Post Sories</h3>
@@ -63,9 +63,31 @@
                         <li><button class="langbuttons">bootstrap</button></li>
                         <li><button class="langbuttons">Ruby</button></li>
                     </ul>
-                    <button class="project">See Project</button>
+                    <button class="project" id="project" onclick="popupwindow()">
+                        <a href="#popup-container">See Project</a>
+                    </button>
                 </div>
             </div>
+
+            <!-- <div class="popup-container">
+                <div class="popup-header">
+                    <h3 class="multi2">Multi Post Stories</h3>
+                    <button class="closebutton">&times;</button>
+                </div>
+                <ul class="popup-langs">
+                    <li class="popupli">html</li>
+                    <li class="popupli">Bootstrap</li>
+                    <li class="popupli">Ruby on Rails</li>
+                </ul>
+                <div class="popup-body">
+                    <img src="./images/popupimage.png" alt="Snapshoot Portfolio">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent</p>
+                </div>
+                <div class="popup-buttons">
+                    <button type="button" class="popup-live">See Live</button>
+                    <button type="button" class="popup-source">See Source</button>
+                </div>
+            </div> -->
 
             <div class="fourth-1">
                 <div class="fourth-container">
