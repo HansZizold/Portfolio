@@ -54,6 +54,7 @@ body {
   background-color: #3c3a39;
   border: none;
   border: 5px solid #3c3a39;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {
@@ -193,7 +194,8 @@ li {
   }
 }
 
-.close {
+.close,
+.close1 {
   display: none;
 }
 
@@ -296,11 +298,11 @@ li {
 
 @media (min-width: 768px) {
   .second-container {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: row;
+    justify-items: flex-start;
     align-self: flex-start;
-    margin: 0 80px 0 80px;
   }
 }
 
@@ -314,8 +316,9 @@ li {
 
 @media (min-width: 768px) {
   #recent {
-    width: 600px;
-    padding: 40px 10px 40px 0;
+    width: 360px;
+    margin-left: 32px;
+    padding: 40px 0;
   }
 }
 
@@ -328,7 +331,7 @@ li {
 @media (min-width: 768px) {
   .box {
     height: 1px;
-    width: 100%;
+    width: 56vw;
     margin: 145px 0 0 0;
   }
 }
@@ -336,7 +339,7 @@ li {
 .third-container {
   width: 88%;
   padding: 0;
-  margin: 0;
+  margin: 0 0 0 28px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -346,6 +349,7 @@ li {
   .third-container {
     flex-direction: row;
     align-items: flex-start;
+    margin-left: 72px;
   }
 }
 
@@ -358,7 +362,7 @@ li {
   .img2 {
     width: 200%;
     height: 200%;
-    margin: 0 16px 0 48px;
+    margin: 0 16px 0 0;
   }
 }
 
@@ -406,20 +410,178 @@ li {
   color: #fff;
   border: none;
   margin: 12px 0 12px 0;
-  animation-duration: 2s;
-  animation-name: slideproject;
-  animation-iteration-count: infinite;
+  cursor: pointer;
 }
 
-@keyframes slideproject {
-  from {
-    height: 48px;
-    width: 108px;
-  }
+.project a {
+  text-decoration: none;
+  color: white;
+}
 
-  to {
-    height: 60px;
-    width: 125px;
+.popup-container {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .popup-container {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+.popup-main {
+  width: 94%;
+  height: 90%;
+  background-color: white;
+}
+
+@media (min-width: 768px) {
+  .popup-main {
+    width: 80%;
+    height: 80%;
+  }
+}
+
+.popup-header {
+  width: 90%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .popup-header {
+    width: 95%;
+    margin: 24px 24px 0 24px;
+  }
+}
+
+.multi2 {
+  margin: 0 0 56px 24px;
+  font-size: 32px;
+  color: #172b4d;
+}
+
+@media (min-width: 768px) {
+  .multi2 {
+    margin: 0;
+  }
+}
+
+.closebutton {
+  align-self: flex-start;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #67798e;
+}
+
+.popup-langs {
+  font-size: 13px;
+  font-weight: 600;
+  width: 90%;
+  padding: 0;
+  margin: 0 0 16px 24px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media (min-width: 768px) {
+  .popup-langs {
+    margin: 8px 0 48px 24px;
+    width: 95%;
+  }
+}
+
+.popupli {
+  margin: 0 4px;
+  padding: 6px;
+  border: 1px solid #979493;
+}
+
+@media (min-width: 768px) {
+  .popup-mainbody {
+    display: flex;
+    flex-direction: row;
+    margin: 0 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .popup-body {
+    margin: 0 0 0 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.popup-mainbody img {
+  margin-left: 20px;
+  width: 90%;
+  height: 250px;
+}
+
+@media (min-width: 768px) {
+  .popup-mainbody img {
+    margin-left: 8px;
+    height: 56vh;
+    max-width: 64%;
+  }
+}
+
+.popup-body p {
+  margin-left: 20px;
+  width: 90%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@media (min-width: 768px) {
+  .popup-body p {
+    margin: 0 8px 0 0;
+  }
+}
+
+.popup-buttons {
+  margin-left: 16px;
+}
+
+@media (min-width: 768px) {
+  .popup-buttons {
+    display: flex;
+    margin: 0 0 0 20px;
+  }
+}
+
+.popup-live,
+.popup-source {
+  font-size: 17px;
+  font-weight: 700;
+  margin: 8px 16px 8px 0;
+  padding: 8px 32px 8px 8px;
+  color: white;
+  background-color: #ff6b00;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .popup-live,
+  .popup-source {
+    margin: 8px 16px 0 0;
   }
 }
 
@@ -440,7 +602,7 @@ li {
     display: flex;
     flex-direction: row;
     width: 84%;
-    margin: 0 48px 0 48px;
+    margin: 0 48px 0 64px;
   }
 }
 
@@ -449,7 +611,7 @@ li {
     display: flex;
     flex-direction: row;
     width: 84%;
-    margin: 0 48px 0 48px;
+    margin: 0 48px 0 64px;
   }
 }
 
@@ -514,6 +676,7 @@ li {
   font-weight: 700;
   color: #fff;
   border: none;
+  cursor: pointer;
 }
 
 .container56 {
