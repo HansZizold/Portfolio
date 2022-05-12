@@ -1,3 +1,5 @@
+// HAMBURGUER PART
+
 function dropmenu() {
   const nav = document.querySelector('#mymenu');
   nav.classList.add('show');
@@ -17,6 +19,8 @@ function closemenu() {
 
 dropmenu();
 closemenu();
+
+// THIS PART IS FOR INSERTING THE PROJECTS HTML CODE INSIDE THE JS FILE
 
 // create a variable containing the second container html code
 const secondcontainer = `
@@ -147,6 +151,11 @@ fourthcontainer2div.innerHTML = fourthcontainer2;
 // inside the section works represented with the variable works
 works.appendChild(fourthcontainer2div);
 
+
+//MODAL POPUP WINDOW
+
+// seven structures declaration to store the main attributes of each project
+// attributes: title, technologies, image, description, demo, live 
 const projects = [
   {
     title: 'Multi Post Stories',
@@ -218,8 +227,10 @@ const projects6 = [
   },
 ];
 
-// console.log(projects[0].desc);
+// select the position where class 'works' is located and store in sectionWorks variable
 const sectionWorks = document.querySelector('.works');
+
+// variables of div type that will contain the popup window
 const popwindow = document.createElement('div');
 const popwindow1 = document.createElement('div');
 const popwindow2 = document.createElement('div');
@@ -228,6 +239,8 @@ const popwindow4 = document.createElement('div');
 const popwindow5 = document.createElement('div');
 const popwindow6 = document.createElement('div');
 
+// popup variables that will contain the popup window html code
+// note that the structures variables are being used
 const popup = `
 <div class="popup-main">
   <div class="popup-header">
@@ -389,7 +402,8 @@ const popup6 = `
   </div>
 <div>`;
 
-// popup window class to show content: popup-container
+// content of popup variables are inserted in the divs 
+// popwindow variables we created. In this point 
 popwindow.innerHTML = popup;
 popwindow1.innerHTML = popup1;
 popwindow2.innerHTML = popup2;
@@ -398,6 +412,18 @@ popwindow4.innerHTML = popup4;
 popwindow5.innerHTML = popup5;
 popwindow6.innerHTML = popup6;
 
+// popwindows div are appended at the beginning of the works section
+// represented by the sectionWorks variable
+sectionWorks.prepend(popwindow);
+sectionWorks.prepend(popwindow1);
+sectionWorks.prepend(popwindow2);
+sectionWorks.prepend(popwindow3);
+sectionWorks.prepend(popwindow4);
+sectionWorks.prepend(popwindow5);
+sectionWorks.prepend(popwindow6);
+
+// class 'close1' is added to popwindows div in order to hide it
+// popwindows html will show when with a button click
 popwindow.classList.add('close1');
 popwindow1.classList.add('close1');
 popwindow2.classList.add('close1');
@@ -406,101 +432,99 @@ popwindow4.classList.add('close1');
 popwindow5.classList.add('close1');
 popwindow6.classList.add('close1');
 
-sectionWorks.prepend(popwindow);
-sectionWorks.prepend(popwindow1);
-sectionWorks.prepend(popwindow2);
-sectionWorks.prepend(popwindow3);
-sectionWorks.prepend(popwindow4);
-sectionWorks.prepend(popwindow5);
-sectionWorks.prepend(popwindow6);
-// sectionWorks.appendChild(popwindow);
-
+// This functions are called when the user clicks the 'see project'
+// buttons of each project. Class 'close1' is removed so its content 
+// is shown and class 'popup-container' is added to format the popup window 
 function popupwindow() {
-  popwindow.id = 'popup-container';
+  // popwindow.id = 'popup-container';
   popwindow.classList.remove('close1');
   popwindow.classList.add('popup-container');
 }
 function popupwindow1() {
-  popwindow1.id = 'popup-container';
+  // popwindow1.id = 'popup-container';
   popwindow1.classList.remove('close1');
   popwindow1.classList.add('popup-container');
 }
 function popupwindow2() {
-  popwindow2.id = 'popup-container';
+  // popwindow2.id = 'popup-container';
   popwindow2.classList.remove('close1');
   popwindow2.classList.add('popup-container');
 }
 function popupwindow3() {
-  popwindow3.id = 'popup-container';
+  // popwindow3.id = 'popup-container';
   popwindow3.classList.remove('close1');
   popwindow3.classList.add('popup-container');
 }
 function popupwindow4() {
-  popwindow4.id = 'popup-container';
+  // popwindow4.id = 'popup-container';
   popwindow4.classList.remove('close1');
   popwindow4.classList.add('popup-container');
 }
 function popupwindow5() {
-  popwindow5.id = 'popup-container';
+  // popwindow5.id = 'popup-container';
   popwindow5.classList.remove('close1');
   popwindow5.classList.add('popup-container');
 }
 function popupwindow6() {
-  popwindow6.id = 'popup-container';
+  // popwindow6.id = 'popup-container';
   popwindow6.classList.remove('close1');
   popwindow6.classList.add('popup-container');
 }
 
+// This functions are called when the user press the x button in the 
+// popup window. It removes the 'popup container' class and adds the 'close1'
+// class to the popup window in order to hide it  
 function popupclose() {
-  const mainc = document.querySelector('#main-container');
-  mainc.classList.remove('close1');
-  mainc.classList.add('main-container');
+  // const mainc = document.querySelector('#main-container');
+  // mainc.classList.remove('close1');
+  // mainc.classList.add('main-container');
   popwindow.classList.remove('popup-container');
   popwindow.classList.add('close1');
 }
 function popupclose1() {
-  const mainc = document.querySelector('#main-container');
-  mainc.classList.remove('close1');
-  mainc.classList.add('main-container');
+  // const mainc = document.querySelector('#main-container');
+  // mainc.classList.remove('close1');
+  // mainc.classList.add('main-container');
   popwindow1.classList.remove('popup-container');
   popwindow1.classList.add('close1');
 }
 function popupclose2() {
-  const mainc = document.querySelector('#main-container');
-  mainc.classList.remove('close1');
-  mainc.classList.add('main-container');
+  // const mainc = document.querySelector('#main-container');
+  // mainc.classList.remove('close1');
+  // mainc.classList.add('main-container');
   popwindow2.classList.remove('popup-container');
   popwindow2.classList.add('close1');
 }
 function popupclose3() {
-  const mainc = document.querySelector('#main-container');
-  mainc.classList.remove('close1');
-  mainc.classList.add('main-container');
+  // const mainc = document.querySelector('#main-container');
+  // mainc.classList.remove('close1');
+  // mainc.classList.add('main-container');
   popwindow3.classList.remove('popup-container');
   popwindow3.classList.add('close1');
 }
 function popupclose4() {
-  const mainc = document.querySelector('#main-container');
-  mainc.classList.remove('close1');
-  mainc.classList.add('main-container');
+  // const mainc = document.querySelector('#main-container');
+  // mainc.classList.remove('close1');
+  // mainc.classList.add('main-container');
   popwindow4.classList.remove('popup-container');
   popwindow4.classList.add('close1');
 }
 function popupclose5() {
-  const mainc = document.querySelector('#main-container');
-  mainc.classList.remove('close1');
-  mainc.classList.add('main-container');
+  // const mainc = document.querySelector('#main-container');
+  // mainc.classList.remove('close1');
+  // mainc.classList.add('main-container');
   popwindow5.classList.remove('popup-container');
   popwindow5.classList.add('close1');
 }
 function popupclose6() {
-  const mainc = document.querySelector('#main-container');
-  mainc.classList.remove('close1');
-  mainc.classList.add('main-container');
+  // const mainc = document.querySelector('#main-container');
+  // mainc.classList.remove('close1');
+  // mainc.classList.add('main-container');
   popwindow6.classList.remove('popup-container');
   popwindow6.classList.add('close1');
 }
 
+// Just for the linters
 popupwindow();
 popupclose();
 popupwindow1();
