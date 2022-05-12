@@ -194,19 +194,23 @@ li {
   }
 }
 
-.close {
+.close, .close1 {
   display: none;
 }
 
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
   .close {
     display: flex;
     height: 77px;
   }
-} */
+}
 
-.popup-opacity {
-  opacity: 0.5;
+.opacity-enabled {
+  opacity: 0.2;
+}
+
+.opacity-disabled {
+  opacity:unset;
 }
 
 .first-container {
@@ -414,34 +418,43 @@ li {
   cursor: pointer;
 }
 
+.project a{
+  text-decoration: none;
+  color: white;
+}
+
 .popup-container {
   position: fixed;
-  width: 95%;
-  height: 98vh;
-  /* width: 90%;
-  height: 96vh; */
-  top: 1%;
-  left: 2.5%;
-  /* top: 2%;
-  left: 5%; */
-  background-color: white;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.8);
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   margin: 0;
 }
 
 @media (min-width: 768px) {
   .popup-container {
-    width: 75%;
-    height: 75vh;
-    top: 10%;
-    left: 12%;
+    width: 100%;
+    height: 100vh;
   }
 }
 
-.modal {
-  background-color: rgba(255, 255, 255, 1)
+.popup-main {
+  width: 94%;
+  height: 90%;
+  background-color: white;
+}
+
+@media (min-width: 768px) {
+  .popup-main {
+    width: 80%;
+    height: 80%;
+  }
 }
 
 .popup-header {
@@ -454,11 +467,12 @@ li {
 @media (min-width: 768px) {
   .popup-header {
     width: 95%;
+    margin: 24px 24px 0 24px;
   }
 }
 
 .multi2 {
-  margin: 0 0 40px 0;
+  margin: 0 0 56px 24px;
   font-size: 32px;
   color: #172b4d;
 }
@@ -482,15 +496,16 @@ li {
 .popup-langs {
   font-size: 13px;
   font-weight: 600;
-  width: 88%;
+  width: 90%;
   padding: 0;
+  margin: 0 0 16px 24px;
   display: flex;
   justify-content: flex-start;
 }
 
 @media (min-width: 768px) {
   .popup-langs {
-    margin: 8px 0 48px 0;
+    margin: 8px 0 48px 24px;
     width: 95%;
   }
 }
@@ -505,28 +520,29 @@ li {
   .popup-mainbody {
     display: flex;
     flex-direction: row;
-    margin-left: 16px;
+    margin: 0 16px;
   }
 }
 
 @media (min-width: 768px) {
   .popup-body {
-    margin: 0 0 0 20px;
+    margin: 0 0 0 8px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
 }
 
-.popup-body img {
+.popup-mainbody img {
   margin-left: 20px;
   width: 90%;
+  height: 250px;
 }
 
 @media (min-width: 768px) {
   .popup-mainbody img {
-    /* margin-left: 20px; */
-    height: 53vh;
+    margin-left: 8px;
+    height: 56vh;
     max-width: 64%;
   }
 }
@@ -540,9 +556,19 @@ li {
 }
 
 @media (min-width: 768px) {
+  .popup-body p {
+    margin: 0 8px 0 0;
+  }
+}
+
+.popup-buttons {
+  margin-left: 16px;
+}
+
+@media (min-width: 768px) {
   .popup-buttons {
     display: flex;
-    margin-left: 20px;
+    margin: 0 0 0 20px;
   }
 }
 
@@ -554,6 +580,12 @@ li {
   color: white;
   background-color: #ff6b00;
   border: none;
+}
+
+@media (min-width: 768px) {
+  .popup-live, .popup-source {
+    margin: 8px 16px 0 0;
+  }
 }
 
 .fourth-1 {

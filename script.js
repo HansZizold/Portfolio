@@ -27,11 +27,74 @@ const projects = [
     src: 'See Source'
   }
 ]
+const projects1 = [
+    { title: 'Portfolio Mobile',
+    tech: ['CSS', 'Python', 'SASS'],
+    image: './images/popupimage.png',
+    desc: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+    demo: 'See Live',
+    src: 'See Source'
+  }
+]
+const projects2 = [
+  { title: 'Portfolio Desktop',
+    tech: ['Javascript', 'Python', 'LESS'],
+    image: './images/popupimage.png',
+    desc: "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself",
+    demo: 'See Live',
+    src: 'See Source'
+  }
+]
+const projects3 = [
+  { title: 'Portfolio Hamburguer',
+    tech: ['JAVA', 'C++', 'Bootstrap'],
+    image: './images/popupimage.png',
+    desc: "Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.",
+    demo: 'See Live',
+    src: 'See Source'
+  }
+]
+const projects4 = [
+  { title: 'Portfolio Popup Window',
+    tech: ['GITHUB', 'Linters', 'UML'],
+    image: './images/popupimage.png',
+    desc: "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable",
+    demo: 'See Live',
+    src: 'See Source'
+  }
+]
+const projects5 = [
+  { title: 'Portfolio Forms',
+    tech: ['xml', 'React', 'Ubuntu'],
+    image: './images/popupimage.png',
+    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country",
+    demo: 'See Live',
+    src: 'See Source'
+  }
+]
+const projects6 = [
+  { title: 'Portfolio Reloaded',
+    tech: ['Azure', 'Linux', 'GIT'],
+    image: './images/popupimage.png',
+    desc: "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off",
+    demo: 'See Live',
+    src: 'See Source'
+  }
+]
+
 // console.log(projects[0].desc);
 const mainContainer = document.querySelector('.main-container');
 const sectionWorks = document.querySelector('.works');
 const popwindow = document.createElement('div');
+const popwindow1 = document.createElement('div');
+const popwindow2 = document.createElement('div');
+const popwindow3 = document.createElement('div');
+const popwindow4 = document.createElement('div');
+const popwindow5 = document.createElement('div');
+const popwindow6 = document.createElement('div');
+
 const popup = `
+<div class="popup-main">
   <div class="popup-header">
     <h3 class="multi2">${projects[0].title}</h3>
     <button onclick="popupclose()" class="closebutton">&times;</button>
@@ -50,47 +113,255 @@ const popup = `
         <button type="button" class="popup-source">${projects[0].src}</button>
       </div>
     </div>
-  </div>`
+  </div>
+<div>`
+
+const popup1 = `
+<div class="popup-main">
+  <div class="popup-header">
+    <h3 class="multi2">${projects1[0].title}</h3>
+    <button onclick="popupclose1()" class="closebutton">&times;</button>
+  </div>
+  <ul class="popup-langs">
+    <li class="popupli">${projects1[0].tech[0]}</li>
+    <li class="popupli">${projects1[0].tech[1]}</li>
+    <li class="popupli">${projects1[0].tech[2]}</li>
+  </ul>
+  <div class=popup-mainbody>
+    <img src="${projects1[0].image}" alt="Snapshoot Portfolio">
+    <div class="popup-body">
+      <p>${projects1[0].desc}</p>
+      <div class="popup-buttons">
+        <button type="button" class="popup-live">${projects1[0].demo}</button>
+        <button type="button" class="popup-source">${projects1[0].src}</button>
+      </div>
+    </div>
+  </div>
+<div>`
+
+const popup2 = `
+<div class="popup-main">
+  <div class="popup-header">
+    <h3 class="multi2">${projects2[0].title}</h3>
+    <button onclick="popupclose2()" class="closebutton">&times;</button>
+  </div>
+  <ul class="popup-langs">
+    <li class="popupli">${projects2[0].tech[0]}</li>
+    <li class="popupli">${projects2[0].tech[1]}</li>
+    <li class="popupli">${projects2[0].tech[2]}</li>
+  </ul>
+  <div class=popup-mainbody>
+    <img src="${projects2[0].image}" alt="Snapshoot Portfolio">
+    <div class="popup-body">
+      <p>${projects2[0].desc}</p>
+      <div class="popup-buttons">
+        <button type="button" class="popup-live">${projects2[0].demo}</button>
+        <button type="button" class="popup-source">${projects2[0].src}</button>
+      </div>
+    </div>
+  </div>
+<div>`
+
+const popup3 = `
+<div class="popup-main">
+  <div class="popup-header">
+    <h3 class="multi2">${projects3[0].title}</h3>
+    <button onclick="popupclose3()" class="closebutton">&times;</button>
+  </div>
+  <ul class="popup-langs">
+    <li class="popupli">${projects3[0].tech[0]}</li>
+    <li class="popupli">${projects3[0].tech[1]}</li>
+    <li class="popupli">${projects3[0].tech[2]}</li>
+  </ul>
+  <div class=popup-mainbody>
+    <img src="${projects3[0].image}" alt="Snapshoot Portfolio">
+    <div class="popup-body">
+      <p>${projects3[0].desc}</p>
+      <div class="popup-buttons">
+        <button type="button" class="popup-live">${projects3[0].demo}</button>
+        <button type="button" class="popup-source">${projects3[0].src}</button>
+      </div>
+    </div>
+  </div>
+<div>`
+
+const popup4 = `
+<div class="popup-main">
+  <div class="popup-header">
+    <h3 class="multi2">${projects4[0].title}</h3>
+    <button onclick="popupclose4()" class="closebutton">&times;</button>
+  </div>
+  <ul class="popup-langs">
+    <li class="popupli">${projects4[0].tech[0]}</li>
+    <li class="popupli">${projects4[0].tech[1]}</li>
+    <li class="popupli">${projects4[0].tech[2]}</li>
+  </ul>
+  <div class=popup-mainbody>
+    <img src="${projects4[0].image}" alt="Snapshoot Portfolio">
+    <div class="popup-body">
+      <p>${projects4[0].desc}</p>
+      <div class="popup-buttons">
+        <button type="button" class="popup-live">${projects4[0].demo}</button>
+        <button type="button" class="popup-source">${projects4[0].src}</button>
+      </div>
+    </div>
+  </div>
+<div>`
+
+const popup5 = `
+<div class="popup-main">
+  <div class="popup-header">
+    <h3 class="multi2">${projects5[0].title}</h3>
+    <button onclick="popupclose5()" class="closebutton">&times;</button>
+  </div>
+  <ul class="popup-langs">
+    <li class="popupli">${projects5[0].tech[0]}</li>
+    <li class="popupli">${projects5[0].tech[1]}</li>
+    <li class="popupli">${projects5[0].tech[2]}</li>
+  </ul>
+  <div class=popup-mainbody>
+    <img src="${projects5[0].image}" alt="Snapshoot Portfolio">
+    <div class="popup-body">
+      <p>${projects5[0].desc}</p>
+      <div class="popup-buttons">
+        <button type="button" class="popup-live">${projects5[0].demo}</button>
+        <button type="button" class="popup-source">${projects5[0].src}</button>
+      </div>
+    </div>
+  </div>
+<div>`
+
+const popup6 = `
+<div class="popup-main">
+  <div class="popup-header">
+    <h3 class="multi2">${projects6[0].title}</h3>
+    <button onclick="popupclose6()" class="closebutton">&times;</button>
+  </div>
+  <ul class="popup-langs">
+    <li class="popupli">${projects6[0].tech[0]}</li>
+    <li class="popupli">${projects6[0].tech[1]}</li>
+    <li class="popupli">${projects6[0].tech[2]}</li>
+  </ul>
+  <div class=popup-mainbody>
+    <img src="${projects6[0].image}" alt="Snapshoot Portfolio">
+    <div class="popup-body">
+      <p>${projects6[0].desc}</p>
+      <div class="popup-buttons">
+        <button type="button" class="popup-live">${projects6[0].demo}</button>
+        <button type="button" class="popup-source">${projects6[0].src}</button>
+      </div>
+    </div>
+  </div>
+<div>`
+
 // popup window class to show content: popup-container
 popwindow.innerHTML = popup;
-popwindow.classList.add('close');
+popwindow1.innerHTML = popup1;
+popwindow2.innerHTML = popup2;
+popwindow3.innerHTML = popup3;
+popwindow4.innerHTML = popup4;
+popwindow5.innerHTML = popup5;
+popwindow6.innerHTML = popup6;
 
-// document.body.prepend(popwindow);
+popwindow.classList.add('close1');
+popwindow1.classList.add('close1');
+popwindow2.classList.add('close1');
+popwindow3.classList.add('close1');
+popwindow4.classList.add('close1');
+popwindow5.classList.add('close1');
+popwindow6.classList.add('close1');
 
 sectionWorks.prepend(popwindow);
-
+sectionWorks.prepend(popwindow1);
+sectionWorks.prepend(popwindow2);
+sectionWorks.prepend(popwindow3);
+sectionWorks.prepend(popwindow4);
+sectionWorks.prepend(popwindow5);
+sectionWorks.prepend(popwindow6);
 // sectionWorks.appendChild(popwindow);
-
 
 function popupwindow() {
   popwindow.id = 'popup-container';
-
-  // const thirdc = document.querySelector('#third-container');
-  // thirdc.classList.remove('third-container');
-  // thirdc.classList.add('close');
-
-  // const mainc = document.querySelector('#main-container');
-  // mainc.classList.remove('main-container');
-  // mainc.classList.add('close');
-
-  popwindow.classList.remove('close');
+  popwindow.classList.remove('close1');
   popwindow.classList.add('popup-container');
-
-  // mainContainer.classList.add('popup-opacity');
+}
+function popupwindow1() {
+  popwindow1.id = 'popup-container';
+  popwindow1.classList.remove('close1');
+  popwindow1.classList.add('popup-container');
+}
+function popupwindow2() {
+  popwindow2.id = 'popup-container';
+  popwindow2.classList.remove('close1');
+  popwindow2.classList.add('popup-container');
+}
+function popupwindow3() {
+  popwindow3.id = 'popup-container';
+  popwindow3.classList.remove('close1');
+  popwindow3.classList.add('popup-container');
+}
+function popupwindow4() {
+  popwindow4.id = 'popup-container';
+  popwindow4.classList.remove('close1');
+  popwindow4.classList.add('popup-container');
+}
+function popupwindow5() {
+  popwindow5.id = 'popup-container';
+  popwindow5.classList.remove('close1');
+  popwindow5.classList.add('popup-container');
+}
+function popupwindow6() {
+  popwindow6.id = 'popup-container';
+  popwindow6.classList.remove('close1');
+  popwindow6.classList.add('popup-container');
 }
 
 function popupclose() {
   const mainc = document.querySelector('#main-container');
-  mainc.classList.remove('close');
+  mainc.classList.remove('close1');
   mainc.classList.add('main-container');
-
   popwindow.classList.remove('popup-container');
-  popwindow.classList.add('close');
-
-  // mainContainer.classList.remove('popup-opacity');
+  popwindow.classList.add('close1');
 }
-
-
-
-
-
+function popupclose1() {
+  const mainc = document.querySelector('#main-container');
+  mainc.classList.remove('close1');
+  mainc.classList.add('main-container');
+  popwindow1.classList.remove('popup-container');
+  popwindow1.classList.add('close1');
+}
+function popupclose2() {
+  const mainc = document.querySelector('#main-container');
+  mainc.classList.remove('close1');
+  mainc.classList.add('main-container');
+  popwindow2.classList.remove('popup-container');
+  popwindow2.classList.add('close1');
+}
+function popupclose3() {
+  const mainc = document.querySelector('#main-container');
+  mainc.classList.remove('close1');
+  mainc.classList.add('main-container');
+  popwindow3.classList.remove('popup-container');
+  popwindow3.classList.add('close1');
+}
+function popupclose4() {
+  const mainc = document.querySelector('#main-container');
+  mainc.classList.remove('close1');
+  mainc.classList.add('main-container');
+  popwindow4.classList.remove('popup-container');
+  popwindow4.classList.add('close1');
+}
+function popupclose5() {
+  const mainc = document.querySelector('#main-container');
+  mainc.classList.remove('close1');
+  mainc.classList.add('main-container');
+  popwindow5.classList.remove('popup-container');
+  popwindow5.classList.add('close1');
+}
+function popupclose6() {
+  const mainc = document.querySelector('#main-container');
+  mainc.classList.remove('close1');
+  mainc.classList.add('main-container');
+  popwindow6.classList.remove('popup-container');
+  popwindow6.classList.add('close1');
+}
