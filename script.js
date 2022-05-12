@@ -19,71 +19,77 @@ dropmenu();
 closemenu();
 
 const projects = [
-  { title: 'Multi Post Stories',
+  {
+    title: 'Multi Post Stories',
     tech: ['html', 'Bootstrap', 'Ruby on Rails'],
     image: './images/popupimage.png',
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     demo: 'See Live',
-    src: 'See Source'
-  }
-]
+    src: 'See Source',
+  },
+];
 const projects1 = [
-    { title: 'Portfolio Mobile',
+  {
+    title: 'Portfolio Mobile',
     tech: ['CSS', 'Python', 'SASS'],
     image: './images/popupimage.png',
-    desc: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+    desc: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit',
     demo: 'See Live',
-    src: 'See Source'
-  }
-]
+    src: 'See Source',
+  },
+];
 const projects2 = [
-  { title: 'Portfolio Desktop',
+  {
+    title: 'Portfolio Desktop',
     tech: ['Javascript', 'Python', 'LESS'],
     image: './images/popupimage.png',
-    desc: "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself",
+    desc: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself',
     demo: 'See Live',
-    src: 'See Source'
-  }
-]
+    src: 'See Source',
+  },
+];
 const projects3 = [
-  { title: 'Portfolio Hamburguer',
+  {
+    title: 'Portfolio Hamburguer',
     tech: ['JAVA', 'C++', 'Bootstrap'],
     image: './images/popupimage.png',
-    desc: "Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.",
+    desc: 'Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.',
     demo: 'See Live',
-    src: 'See Source'
-  }
-]
+    src: 'See Source',
+  },
+];
 const projects4 = [
-  { title: 'Portfolio Popup Window',
+  {
+    title: 'Portfolio Popup Window',
     tech: ['GITHUB', 'Linters', 'UML'],
     image: './images/popupimage.png',
-    desc: "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable",
+    desc: 'The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable',
     demo: 'See Live',
-    src: 'See Source'
-  }
-]
+    src: 'See Source',
+  },
+];
 const projects5 = [
-  { title: 'Portfolio Forms',
+  {
+    title: 'Portfolio Forms',
     tech: ['xml', 'React', 'Ubuntu'],
     image: './images/popupimage.png',
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country",
+    desc: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country',
     demo: 'See Live',
-    src: 'See Source'
-  }
-]
+    src: 'See Source',
+  },
+];
 const projects6 = [
-  { title: 'Portfolio Reloaded',
+  {
+    title: 'Portfolio Reloaded',
     tech: ['Azure', 'Linux', 'GIT'],
     image: './images/popupimage.png',
-    desc: "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off",
+    desc: 'One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off',
     demo: 'See Live',
-    src: 'See Source'
-  }
-]
+    src: 'See Source',
+  },
+];
 
 // console.log(projects[0].desc);
-const mainContainer = document.querySelector('.main-container');
 const sectionWorks = document.querySelector('.works');
 const popwindow = document.createElement('div');
 const popwindow1 = document.createElement('div');
@@ -114,7 +120,7 @@ const popup = `
       </div>
     </div>
   </div>
-<div>`
+<div>`;
 
 const popup1 = `
 <div class="popup-main">
@@ -137,7 +143,7 @@ const popup1 = `
       </div>
     </div>
   </div>
-<div>`
+<div>`;
 
 const popup2 = `
 <div class="popup-main">
@@ -160,7 +166,7 @@ const popup2 = `
       </div>
     </div>
   </div>
-<div>`
+<div>`;
 
 const popup3 = `
 <div class="popup-main">
@@ -183,7 +189,7 @@ const popup3 = `
       </div>
     </div>
   </div>
-<div>`
+<div>`;
 
 const popup4 = `
 <div class="popup-main">
@@ -206,7 +212,7 @@ const popup4 = `
       </div>
     </div>
   </div>
-<div>`
+<div>`;
 
 const popup5 = `
 <div class="popup-main">
@@ -229,7 +235,7 @@ const popup5 = `
       </div>
     </div>
   </div>
-<div>`
+<div>`;
 
 const popup6 = `
 <div class="popup-main">
@@ -252,7 +258,7 @@ const popup6 = `
       </div>
     </div>
   </div>
-<div>`
+<div>`;
 
 // popup window class to show content: popup-container
 popwindow.innerHTML = popup;
@@ -365,3 +371,18 @@ function popupclose6() {
   popwindow6.classList.remove('popup-container');
   popwindow6.classList.add('close1');
 }
+
+popupwindow();
+popupclose();
+popupwindow1();
+popupclose1();
+popupwindow2();
+popupclose2();
+popupwindow3();
+popupclose3();
+popupwindow4();
+popupclose4();
+popupwindow5();
+popupclose5();
+popupwindow6();
+popupclose6();
