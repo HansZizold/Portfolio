@@ -18,6 +18,135 @@ function closemenu() {
 dropmenu();
 closemenu();
 
+// create a variable containing the second container html code
+const secondcontainer = `
+<div class="second-container">
+  <h2 id="recent">My Recent Works</h2>
+  <div class="box"></div>
+</div>`;
+// select the position where class 'works' is located.
+// Second container html code is gonna be inserted inside this location
+const works = document.querySelector('.works');
+// create a div and assign to 'secondcontainerdiv variable
+const secondcontainerdiv = document.createElement('div');
+// load the secondcontainer html content inside the div variable
+// we just created (secondcontainerdiv)
+secondcontainerdiv.innerHTML = secondcontainer;
+// insert the html code stored in the secondcontainerdiv variable
+// inside the section works represented with the variable works
+works.appendChild(secondcontainerdiv);
+
+// create a variable containing the third container html code
+const thirdcontainer = `
+<div class="third-container" id="third-container">
+  <img src="images/placeholder.png" alt="placeholder" class="img2">
+  <div class="third-container-2">
+    <h3 id="multi">Multi-Post Sories</h3>
+    <p id="par2">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+    <ul class="langs">
+        <li><button type="button" class="langbuttons">css</button></li>
+        <li><button type="button" class="langbuttons">html</button></li>
+        <li><button type="button" class="langbuttons">bootstrap</button></li>
+        <li><button type="button" class="langbuttons">Ruby</button></li>
+    </ul>
+    <button type="button" class="project" onclick="popupwindow()">See Project</button>
+  </div>
+</div>`;
+// create a div and assign to 'thirdcontainerdiv variable
+const thirdcontainerdiv = document.createElement('div');
+// load the thirdcontainer html content inside the div
+// variable we just created (thirdcontainerdiv)
+thirdcontainerdiv.innerHTML = thirdcontainer;
+// insert the html code stored in the thirdcontainerdiv variable
+// inside the section works represented with the variable works
+works.appendChild(thirdcontainerdiv);
+
+// create a variable containing the fourth 1 container html code
+const fourthcontainer1 = `
+<div class="fourth-1">
+  <div class="fourth-container">
+    <h3 class="profesional">Profesional Art Printing Data</h3>
+    <p class="par3">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard</p>
+    <ul class="langs2">
+      <li><button type="button" class="langbuttons2">html</button></li>
+      <li><button type="button" class="langbuttons2">bootstrap</button></li>
+      <li><button type="button" class="langbuttons2">Ruby</button></li>
+    </ul>
+    <button type="button" class="project2" onclick="popupwindow1()">See Project</button>
+  </div>
+  <div class="fourth-container">
+    <h3 class="profesional">Profesional Art Printing Data</h3>
+    <p class="par3">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard</p>
+    <ul class="langs2">
+      <li><button type="button" class="langbuttons2">html</button></li>
+      <li><button type="button" class="langbuttons2">bootstrap</button></li>
+      <li><button type="button" class="langbuttons2">Ruby</button></li>
+    </ul>
+    <button type="button" class="project2" onclick="popupwindow2()">See Project</button>
+  </div>
+  <div class="fourth-container">
+    <h3 class="profesional">Profesional Art Printing Data</h3>
+    <p class="par3">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard</p>
+    <ul class="langs2">
+      <li><button type="button" class="langbuttons2">html</button></li>
+      <li><button type="button" class="langbuttons2">bootstrap</button></li>
+      <li><button type="button" class="langbuttons2">Ruby</button></li>
+    </ul>
+    <button type="button" class="project2" onclick="popupwindow3()">See Project</button>
+  </div>
+</div>`;
+// create a div and assign to 'fourthcontainer1div variable
+const fourthcontainer1div = document.createElement('div');
+// load the fourthcontainer1 html content inside the div variable
+// we just created (fourthcontainer1div)
+fourthcontainer1div.innerHTML = fourthcontainer1;
+// insert the html code stored in the fourthontainer1div variable
+// inside the section works represented with the variable works
+works.appendChild(fourthcontainer1div);
+
+// create a variable containing the fourth 2 container html code
+const fourthcontainer2 = `
+<div class="fourth-2">
+  <div class="fourth-container">
+    <h3 class="profesional">Profesional Art Printing Data</h3>
+    <p class="par3">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard</p>
+    <ul class="langs2">
+      <li><button type="button" class="langbuttons2">html</button></li>
+      <li><button type="button" class="langbuttons2">bootstrap</button></li>
+      <li><button type="button" class="langbuttons2">Ruby</button></li>
+    </ul>
+    <button type="button" class="project2" onclick="popupwindow4()">See Project</button>
+  </div>
+  <div class="fourth-container">
+    <h3 class="profesional">Profesional Art Printing Data</h3>
+    <p class="par3">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard</p>
+    <ul class="langs2">
+      <li><button type="button" class="langbuttons2">html</button></li>
+      <li><button type="button" class="langbuttons2">bootstrap</button></li>
+      <li><button type="button" class="langbuttons2">Ruby</button></li>
+    </ul>
+    <button type="button" class="project2" onclick="popupwindow5()">See Project</button>
+  </div>
+  <div class="fourth-container">
+    <h3 class="profesional">Profesional Art Printing Data</h3>
+    <p class="par3">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard</p>
+    <ul class="langs2">
+      <li><button type="button" class="langbuttons2">html</button></li>
+      <li><button type="button" class="langbuttons2">bootstrap</button></li>
+      <li><button type="button" class="langbuttons2">Ruby</button></li>
+    </ul>
+    <button type="button" class="project2" onclick="popupwindow6()">See Project</button>
+  </div>
+</div>`;
+// create a div and assign to 'fourthcontainer2div variable
+const fourthcontainer2div = document.createElement('div');
+// load the fourthcontainer2 html content inside the div variable
+// we just created (fourthcontainer2div)
+fourthcontainer2div.innerHTML = fourthcontainer2;
+// insert the html code stored in the fourthcontainer1div variable
+// inside the section works represented with the variable works
+works.appendChild(fourthcontainer2div);
+
 const projects = [
   {
     title: 'Multi Post Stories',
