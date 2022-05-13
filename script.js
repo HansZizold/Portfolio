@@ -511,6 +511,40 @@ popupclose5();
 popupwindow6();
 popupclose6();
 
+// LOCAL STORAGE PART
+
+// Form IDs and submit button are mapped into variables
+const formName = document.querySelector('#name1');
+const formEmail = document.querySelector('#mail');
+const formText = document.querySelector('#msg');
+const formButton = document.querySelector('#touch');
+
+// This function activates when the submit button is clicked
+// It will send the data to local storage
+formButton.addEventListener('click', () => {
+  // Create an object to store the values of the form
+  const contactDataDeposit = {
+    formName: formName.value,
+    formEmail: formEmail.value,
+    formText: formText.value,
+  };
+  // deposit the data of 'contactData' to local storage (formData key)
+  // converting it to JSON format
+  localStorage.setItem('formData', JSON.stringify(contactDataDeposit));
+});
+
+// This function activates when wabe page loads
+// It will load the local storage data into the form
+window.addEventListener('load', () => {
+  // recover the data of local storage with 'formData' key and
+  // parse JSON format to JS format
+  const contactDataRecover = JSON.parse(localStorage.getItem('formData'));
+  // load the data into the form values
+  formName.value = contactDataRecover.formName;
+  formEmail.value = contactDataRecover.formEmail;
+  formText.value = contactDataRecover.formText;
+});
+
 // FORM EMAIL VALIDATION
 
 const nameError = document.getElementById('name-error');
@@ -552,11 +586,11 @@ function validateEmail() {
 
 function validateText() {
   const text = document.getElementById('msg').value;
-  const required = 500;
-  const left = required - text.length;
+  // const required = 500;
+  // const left = required - text.length;
 
-  if (left > 0) {
-    textError.innerHTML = `${left} characters missing`;
+  if (text.length === 0) {
+    textError.innerHTML = 'Comments required';
     return false;
   }
 
@@ -565,7 +599,7 @@ function validateText() {
 }
 
 function validateForm() {
-  if (!validateName() || !validateEmail || !validateText()) {
+  if (!validateName || !validateEmail || !validateText()) {
     submitError.innerHTML = 'Please fix errors to submit';
     setTimeout(() => { submitError.innerHTML = ''; }, 3000);
     return false;
