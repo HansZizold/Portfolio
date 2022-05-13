@@ -11,10 +11,12 @@ In this project first a mobile version will de deployed and then a desktop versi
 *Github Desktop application*
 
 ## HISTORY OF CHANGES
+Preserv data from the user using local storage implemented: **May 13th**.
+Data form validation added. Only permit email in lowercase: **May 12th**.
+HTML code from projects inserted using JS. **May 11th**.
+Popup window pressing 'See Project' buttons to see more details implemented. **May 11th**.
 Mobile Menu implementation using JavaScript: **May 9th**.
-
 Minor width corrections for improve responsiveness: **May 9th**.
-
 Portfolio published with Github Pages: **May 2nd**.
 
 Portfolio Desktop Version: 
