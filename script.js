@@ -151,11 +151,10 @@ fourthcontainer2div.innerHTML = fourthcontainer2;
 // inside the section works represented with the variable works
 works.appendChild(fourthcontainer2div);
 
-
-//MODAL POPUP WINDOW
+// MODAL POPUP WINDOW
 
 // seven structures declaration to store the main attributes of each project
-// attributes: title, technologies, image, description, demo, live 
+// attributes: title, technologies, image, description, demo, live
 const projects = [
   {
     title: 'Multi Post Stories',
@@ -402,8 +401,8 @@ const popup6 = `
   </div>
 <div>`;
 
-// content of popup variables are inserted in the divs 
-// popwindow variables we created. In this point 
+// content of popup variables are inserted in the divs
+// popwindow variables we created. In this point
 popwindow.innerHTML = popup;
 popwindow1.innerHTML = popup1;
 popwindow2.innerHTML = popup2;
@@ -433,8 +432,8 @@ popwindow5.classList.add('close1');
 popwindow6.classList.add('close1');
 
 // This functions are called when the user clicks the 'see project'
-// buttons of each project. Class 'close1' is removed so its content 
-// is shown and class 'popup-container' is added to format the popup window 
+// buttons of each project. Class 'close1' is removed so its content
+// is shown and class 'popup-container' is added to format the popup window
 function popupwindow() {
   // popwindow.id = 'popup-container';
   popwindow.classList.remove('close1');
@@ -471,9 +470,9 @@ function popupwindow6() {
   popwindow6.classList.add('popup-container');
 }
 
-// This functions are called when the user press the x button in the 
+// This functions are called when the user press the x button in the
 // popup window. It removes the 'popup container' class and adds the 'close1'
-// class to the popup window in order to hide it  
+// class to the popup window in order to hide it
 function popupclose() {
   // const mainc = document.querySelector('#main-container');
   // mainc.classList.remove('close1');
@@ -539,3 +538,67 @@ popupwindow5();
 popupclose5();
 popupwindow6();
 popupclose6();
+
+// FORM EMAIL VALIDATION
+
+const nameError = document.getElementById('name-error');
+const emailError = document.getElementById('email-error');
+const textError = document.getElementById('text-error');
+const submitError = document.getElementById('submit-error');
+
+function validateName() {
+  const name = document.getElementById('name1').value;
+
+  if (name.length === 0) {
+    nameError.innerHTML = 'Name is required';
+    return false;
+  }
+
+  if (!name.match(/^[A-Za-z]* {1}[A-Za-z]*/)) {
+    nameError.innerHTML = 'Write full name';
+    return false;
+  }
+  nameError.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
+  return true;
+}
+
+function validateEmail() {
+  const email = document.getElementById('mail').value;
+
+  if (email.length === 0) {
+    emailError.innerHTML = 'Email is required';
+    return false;
+  }
+
+  if (!email.match(/^[a-z._\-[0-9]*[@][a-z]*\.[a-z]{2,4}$/)) {
+    emailError.innerHTML = 'Email invalid';
+    return false;
+  }
+  emailError.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
+  return true;
+}
+
+function validateText() {
+  const text = document.getElementById('msg').value;
+  const required = 500;
+  const left = required - text.length;
+
+  if (left > 0) {
+    textError.innerHTML = `${left} characters missing`;
+    return false;
+  }
+
+  textError.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
+  return true;
+}
+
+function validateForm() {
+  if (!validateName() || !validateEmail || !validateText()) {
+    submitError.innerHTML = 'Please fix errors to submit';
+    setTimeout(() => { submitError.innerHTML = ''; }, 3000);
+    return false;
+  }
+  return true;
+}
+
+validateForm();
