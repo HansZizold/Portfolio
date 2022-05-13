@@ -2,6 +2,7 @@
 
 ## DESCRIPTION
 In this project first a mobile version will de deployed and then a desktop version.
+2022 - Week 19: Popup window showing projects details added. Form validation using JS added. Hamburguer button functionality added. All of these new functionalities were implemented using JavaScript.
 
 **Template #2** from figma was chosen as a model.
 

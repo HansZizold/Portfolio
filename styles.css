@@ -850,8 +850,9 @@ li {
 
 @media (min-width: 768px) {
   .always {
-    margin: 0 0 0 50px;
-    max-width: 50%;
+    margin: 0 0 0 24px;
+    min-width: 30vw;
+    max-width: 40vw;
     text-align: left;
     padding: 0;
   }
@@ -864,9 +865,9 @@ li {
 
 @media (min-width: 768px) {
   .forms {
-    margin: 0 80px 0 0;
-    padding: 0 32px;
-    min-width: 40%;
+    margin: 0 8px 0 16px;
+    padding: 0;
+    width: 50vw;
   }
 }
 
@@ -874,13 +875,33 @@ li {
   font-size: 15px;
 }
 
+.li4 {
+  display: flex;
+}
+
+.input-error {
+  width: 90%;
+  align-self: center;
+  color: red;
+  margin-left: 8px;
+  font-size: smaller;
+}
+
+.text-error {
+  width: 90%;
+  margin-top: 12px;
+  color: red;
+  margin-left: 8px;
+  font-size: smaller;
+}
+
 .form-item {
   border: none;
   border-bottom: 1px solid black;
   border-color: #dbd8d7;
-  margin: 10px 0;
-  padding: 16px 0;
-  width: 100%;
+  margin: 10px 0 0 8px;
+  padding: 16px 0 0 8px;
+  width: 200%;
 }
 
 @media (min-width: 768px) {
@@ -893,20 +914,22 @@ li {
   border: none;
   border-color: #dbd8d7;
   background-color: #fbf8f7;
-  margin: 10px 0;
-  padding: 16px 0;
+  margin: 10px 0 0 8px;
+  padding: 16px 0 0 8px;
   height: 114px;
-  width: 100%;
+  width: 200%;
 }
 
 @media (min-width: 768px) {
   .text-item {
-    /* width: 450px; */
+    width: 220%;
+    margin: 0 0 0 8px;
   }
 }
 
 .litouch {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -924,6 +947,31 @@ li {
   font-weight: 700;
   color: #fff;
   border: none;
-  margin: 12px 0 136px 0;
+  margin: 12px 0 8px 0;
   padding: 12px;
+}
+
+@media (min-width: 768px) {
+  .touch {
+    align-self: flex-start;
+    margin: 12px 0 8px 8px;
+  }
+}
+
+.submit-error {
+  margin-bottom: 128px;
+  align-self: center;
+  color: red;
+  font-size: smaller;
+}
+
+@media (min-width: 768px) {
+  .submit-error {
+    align-self: flex-start;
+    margin: 12px 0 8px 8px;
+  }
+}
+
+.forms span i {
+  color: #ff6b00;
 }
