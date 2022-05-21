@@ -28,17 +28,22 @@ const secondcontainer = `
   <h2 id="recent">My Recent Works</h2>
   <div class="box"></div>
 </div>`;
+console.log(secondcontainer);
 // select the position where class 'works' is located.
 // Second container html code is gonna be inserted inside this location
 const works = document.querySelector('.works');
+console.log(works);
 // create a div and assign to 'secondcontainerdiv variable
 const secondcontainerdiv = document.createElement('div');
+console.log(secondcontainerdiv);
 // load the secondcontainer html content inside the div variable
 // we just created (secondcontainerdiv)
 secondcontainerdiv.innerHTML = secondcontainer;
+console.log(secondcontainerdiv);
 // insert the html code stored in the secondcontainerdiv variable
 // inside the section works represented with the variable works
 works.appendChild(secondcontainerdiv);
+console.log(works);
 
 // create a variable containing the third container html code
 const thirdcontainer = `
