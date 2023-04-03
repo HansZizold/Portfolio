@@ -97,7 +97,7 @@ const fourthcontainer1 = `
   </div>
   <div class="fourth-container">
     <h3 class="profesional">Space Travelers Hub</h3>
-    <p class="par3">Welcome to Space Travelers Hub, a comprehensive web application that allows you to explore a variety of rockets and missions. Our platform offers users the ability to reserve and join exciting missions, enabling them to discover the wonders of space travel</p>
+    <p class="par3">Welcome to Space Travelers Hub, a comprehensive web application that allows you to explore a variety of rockets and missions. Our platform offers users the ability to reserve and join exciting missions, enabling them to discover ...</p>
     <ul class="langs2">
       <li><button type="button" class="langbuttons2">React</button></li>
       <li><button type="button" class="langbuttons2">Redux</button></li>
