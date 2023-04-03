@@ -48,15 +48,15 @@ console.log(works);
 // create a variable containing the third container html code
 const thirdcontainer = `
 <div class="third-container" id="third-container">
-  <img src="images/placeholder.png" alt="placeholder" class="img2">
+  <img src="images/budget.png" alt="placeholder" class="img2">
   <div class="third-container-2">
-    <h3 id="multi">Multi-Post Sories</h3>
-    <p id="par2">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+    <h3 id="multi">Budget App</h3>
+    <p id="par2">The <strong>Budget Application</strong> is a mobile web-based tool designed to facilitate easy management of personal finances. The application provides a comprehensive list of transactions organized by category, enabling users to track their spending habits and identify areas of improvement</p>
     <ul class="langs">
-        <li><button type="button" class="langbuttons">css</button></li>
-        <li><button type="button" class="langbuttons">html</button></li>
-        <li><button type="button" class="langbuttons">bootstrap</button></li>
-        <li><button type="button" class="langbuttons">Ruby</button></li>
+      <li><button type="button" class="langbuttons">Rails</button></li>
+      <li><button type="button" class="langbuttons">Ruby</button></li>
+      <li><button type="button" class="langbuttons">Tailwind</button></li>
+      <li><button type="button" class="langbuttons">HTML5</button></li>
     </ul>
     <button type="button" class="project" onclick="popupwindow()">See Project</button>
   </div>
@@ -74,32 +74,35 @@ works.appendChild(thirdcontainerdiv);
 const fourthcontainer1 = `
 <div class="fourth-1">
   <div class="fourth-container">
-    <h3 class="profesional">Profesional Art Printing Data</h3>
-    <p class="par3">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard</p>
+    <h3 class="profesional">Blog App</h3>
+    <p class="par3">Blog App allows for efficient management of blog posts, comments, and likes, empowering users to interact and engage with content seamlessly. With its user-friendly interface and intuitive design, Blog App makes it easy</p>
     <ul class="langs2">
-      <li><button type="button" class="langbuttons2">html</button></li>
-      <li><button type="button" class="langbuttons2">bootstrap</button></li>
+      <li><button type="button" class="langbuttons2">Rails</button></li>
       <li><button type="button" class="langbuttons2">Ruby</button></li>
+      <li><button type="button" class="langbuttons2">CSS3</button></li>
+      <li><button type="button" class="langbuttons2">HTML5</button></li>
     </ul>
     <button type="button" class="project2" onclick="popupwindow1()">See Project</button>
   </div>
   <div class="fourth-container">
-    <h3 class="profesional">Profesional Art Printing Data</h3>
-    <p class="par3">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard</p>
+    <h3 class="profesional">Hyrule Compendium</h3>
+    <p class="par3">Hyrule Compendium is a comprehensive web application that showcases a vast array of elements from the 'Breath of the Wild' Zelda game. With an intuitive user interface, Hyrule Compendium allows you easily browse and discover</p>
     <ul class="langs2">
-      <li><button type="button" class="langbuttons2">html</button></li>
-      <li><button type="button" class="langbuttons2">bootstrap</button></li>
-      <li><button type="button" class="langbuttons2">Ruby</button></li>
+      <li><button type="button" class="langbuttons2">React</button></li>
+      <li><button type="button" class="langbuttons2">Redux</button></li>
+      <li><button type="button" class="langbuttons2">CSS3</button></li>
+      <li><button type="button" class="langbuttons2">HTML5</button></li>
     </ul>
     <button type="button" class="project2" onclick="popupwindow2()">See Project</button>
   </div>
   <div class="fourth-container">
-    <h3 class="profesional">Profesional Art Printing Data</h3>
-    <p class="par3">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard</p>
+    <h3 class="profesional">Space Travelers Hub</h3>
+    <p class="par3">Welcome to Space Travelers Hub, a comprehensive web application that allows you to explore a variety of rockets and missions. Our platform offers users the ability to reserve and join exciting missions, enabling them to discover the wonders of space travel</p>
     <ul class="langs2">
-      <li><button type="button" class="langbuttons2">html</button></li>
-      <li><button type="button" class="langbuttons2">bootstrap</button></li>
-      <li><button type="button" class="langbuttons2">Ruby</button></li>
+      <li><button type="button" class="langbuttons2">React</button></li>
+      <li><button type="button" class="langbuttons2">Redux</button></li>
+      <li><button type="button" class="langbuttons2">CSS3</button></li>
+      <li><button type="button" class="langbuttons2">HTML5</button></li>
     </ul>
     <button type="button" class="project2" onclick="popupwindow3()">See Project</button>
   </div>
@@ -113,119 +116,46 @@ fourthcontainer1div.innerHTML = fourthcontainer1;
 // inside the section works represented with the variable works
 works.appendChild(fourthcontainer1div);
 
-// create a variable containing the fourth 2 container html code
-const fourthcontainer2 = `
-<div class="fourth-2">
-  <div class="fourth-container">
-    <h3 class="profesional">Profesional Art Printing Data</h3>
-    <p class="par3">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard</p>
-    <ul class="langs2">
-      <li><button type="button" class="langbuttons2">html</button></li>
-      <li><button type="button" class="langbuttons2">bootstrap</button></li>
-      <li><button type="button" class="langbuttons2">Ruby</button></li>
-    </ul>
-    <button type="button" class="project2" onclick="popupwindow4()">See Project</button>
-  </div>
-  <div class="fourth-container">
-    <h3 class="profesional">Profesional Art Printing Data</h3>
-    <p class="par3">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard</p>
-    <ul class="langs2">
-      <li><button type="button" class="langbuttons2">html</button></li>
-      <li><button type="button" class="langbuttons2">bootstrap</button></li>
-      <li><button type="button" class="langbuttons2">Ruby</button></li>
-    </ul>
-    <button type="button" class="project2" onclick="popupwindow5()">See Project</button>
-  </div>
-  <div class="fourth-container">
-    <h3 class="profesional">Profesional Art Printing Data</h3>
-    <p class="par3">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard</p>
-    <ul class="langs2">
-      <li><button type="button" class="langbuttons2">html</button></li>
-      <li><button type="button" class="langbuttons2">bootstrap</button></li>
-      <li><button type="button" class="langbuttons2">Ruby</button></li>
-    </ul>
-    <button type="button" class="project2" onclick="popupwindow6()">See Project</button>
-  </div>
-</div>`;
-// create a div and assign to 'fourthcontainer2div variable
-const fourthcontainer2div = document.createElement('div');
-// load the fourthcontainer2 html content inside the div variable
-// we just created (fourthcontainer2div)
-fourthcontainer2div.innerHTML = fourthcontainer2;
-// insert the html code stored in the fourthcontainer1div variable
-// inside the section works represented with the variable works
-works.appendChild(fourthcontainer2div);
-
 // MODAL POPUP WINDOW
 
 // seven structures declaration to store the main attributes of each project
 // attributes: title, technologies, image, description, demo, live
 const projects = [
   {
-    title: 'Multi Post Stories',
-    tech: ['html', 'Bootstrap', 'Ruby on Rails'],
-    image: './images/popupimage.png',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    title: 'Budget App',
+    tech: ['Rails', 'Ruby', 'Tailwind'],
+    image: './images/budget.jpg',
+    desc: 'The <strong>Budget Application</strong> is a mobile web-based tool designed to facilitate easy management of personal finances. The application provides a comprehensive list of transactions organized by category, enabling users to track their spending habits and identify areas of improvement. Developed using the Ruby on Rails framework, both for the front-end and back-end, and styled with the Tailwind framework, the Budget Application delivers a seamless user experience while maintaining a sleek and professional design.',
     demo: 'See Live',
     src: 'See Source',
   },
 ];
 const projects1 = [
   {
-    title: 'Portfolio Mobile',
-    tech: ['CSS', 'Python', 'SASS'],
-    image: './images/popupimage.png',
-    desc: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit',
+    title: 'Blog App',
+    tech: ['Rails', 'Ruby', 'CSS3'],
+    image: './images/blog.jpg',
+    desc: "Blog App is fully functional website. The application allows for efficient management of blog posts, comments, and likes, empowering users to interact and engage with content seamlessly. With its user-friendly interface and intuitive design, Blog App makes it easy to create and publish new posts, moderate comments, and monitor engagement. Whether you're a blogger looking to expand your reach or a business seeking to enhance your content marketing strategy, Blog App is an ideal solution that can help you achieve your goals",
     demo: 'See Live',
     src: 'See Source',
   },
 ];
 const projects2 = [
   {
-    title: 'Portfolio Desktop',
-    tech: ['Javascript', 'Python', 'LESS'],
-    image: './images/popupimage.png',
-    desc: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself',
+    title: 'Hyrule Compendium',
+    tech: ['React', 'Redux', 'CSS3'],
+    image: './images/zelda.jpg',
+    desc: "Hyrule Compendium is a comprehensive web application that showcases a vast array of elements from the popular 'Breath of the Wild' Zelda game. With an intuitive user interface, Hyrule Compendium allows you to easily browse and discover your favorite characters, weapons, items, and locations within the game. Whether you're a seasoned Zelda fan or a new player exploring the world of Hyrule for the first time, Hyrule Compendium provides a wealth of information and resources to enhance your gaming experience",
     demo: 'See Live',
     src: 'See Source',
   },
 ];
 const projects3 = [
   {
-    title: 'Portfolio Hamburguer',
-    tech: ['JAVA', 'C++', 'Bootstrap'],
-    image: './images/popupimage.png',
-    desc: 'Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.',
-    demo: 'See Live',
-    src: 'See Source',
-  },
-];
-const projects4 = [
-  {
-    title: 'Portfolio Popup Window',
-    tech: ['GITHUB', 'Linters', 'UML'],
-    image: './images/popupimage.png',
-    desc: 'The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable',
-    demo: 'See Live',
-    src: 'See Source',
-  },
-];
-const projects5 = [
-  {
-    title: 'Portfolio Forms',
-    tech: ['xml', 'React', 'Ubuntu'],
-    image: './images/popupimage.png',
-    desc: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country',
-    demo: 'See Live',
-    src: 'See Source',
-  },
-];
-const projects6 = [
-  {
-    title: 'Portfolio Reloaded',
-    tech: ['Azure', 'Linux', 'GIT'],
-    image: './images/popupimage.png',
-    desc: 'One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off',
+    title: 'Space Traveler Hub',
+    tech: ['React', 'Redux', 'CSS3'],
+    image: './images/space.jpg',
+    desc: 'Welcome to Space Travelers Hub, a comprehensive web application that allows you to explore a variety of rockets and missions. Our platform offers users the ability to reserve and join exciting missions, enabling them to discover the wonders of space travel like never before. With a user-friendly interface and cutting-edge features, Space Travelers Hub is the ultimate destination for those looking to embark on an adventure beyond our planet.',
     demo: 'See Live',
     src: 'See Source',
   },
@@ -239,9 +169,6 @@ const popwindow = document.createElement('div');
 const popwindow1 = document.createElement('div');
 const popwindow2 = document.createElement('div');
 const popwindow3 = document.createElement('div');
-const popwindow4 = document.createElement('div');
-const popwindow5 = document.createElement('div');
-const popwindow6 = document.createElement('div');
 
 // popup variables that will contain the popup window html code
 // note that the structures variables are being used
@@ -261,8 +188,12 @@ const popup = `
     <div class="popup-body">
       <p>${projects[0].desc}</p>
       <div class="popup-buttons">
-        <button type="button" class="popup-live">${projects[0].demo}</button>
-        <button type="button" class="popup-source">${projects[0].src}</button>
+        <a href="https://budget-1bv7.onrender.com/groups" target="_blank">
+          <button type="button" class="popup-live">${projects[0].demo}</button>
+        </a>
+        <a href="https://github.com/HansZizold/budget_app" target="_blank">
+          <button type="button" class="popup-source">${projects[0].src}</button>
+        </a>
       </div>
     </div>
   </div>
@@ -284,8 +215,12 @@ const popup1 = `
     <div class="popup-body">
       <p>${projects1[0].desc}</p>
       <div class="popup-buttons">
-        <button type="button" class="popup-live">${projects1[0].demo}</button>
-        <button type="button" class="popup-source">${projects1[0].src}</button>
+        <a href="https://budget-1bv7.onrender.com/groups" target="_blank">
+          <button type="button" class="popup-live">${projects1[0].demo}</button>
+        </a>
+        <a href="https://github.com/HansZizold/blogapp" target="_blank">
+          <button type="button" class="popup-source">${projects1[0].src}</button>
+        </a>
       </div>
     </div>
   </div>
@@ -337,84 +272,12 @@ const popup3 = `
   </div>
 <div>`;
 
-const popup4 = `
-<div class="popup-main">
-  <div class="popup-header">
-    <h3 class="multi2">${projects4[0].title}</h3>
-    <button onclick="popupclose4()" class="closebutton">&times;</button>
-  </div>
-  <ul class="popup-langs">
-    <li class="popupli">${projects4[0].tech[0]}</li>
-    <li class="popupli">${projects4[0].tech[1]}</li>
-    <li class="popupli">${projects4[0].tech[2]}</li>
-  </ul>
-  <div class=popup-mainbody>
-    <img src="${projects4[0].image}" alt="Snapshoot Portfolio">
-    <div class="popup-body">
-      <p>${projects4[0].desc}</p>
-      <div class="popup-buttons">
-        <button type="button" class="popup-live">${projects4[0].demo}</button>
-        <button type="button" class="popup-source">${projects4[0].src}</button>
-      </div>
-    </div>
-  </div>
-<div>`;
-
-const popup5 = `
-<div class="popup-main">
-  <div class="popup-header">
-    <h3 class="multi2">${projects5[0].title}</h3>
-    <button onclick="popupclose5()" class="closebutton">&times;</button>
-  </div>
-  <ul class="popup-langs">
-    <li class="popupli">${projects5[0].tech[0]}</li>
-    <li class="popupli">${projects5[0].tech[1]}</li>
-    <li class="popupli">${projects5[0].tech[2]}</li>
-  </ul>
-  <div class=popup-mainbody>
-    <img src="${projects5[0].image}" alt="Snapshoot Portfolio">
-    <div class="popup-body">
-      <p>${projects5[0].desc}</p>
-      <div class="popup-buttons">
-        <button type="button" class="popup-live">${projects5[0].demo}</button>
-        <button type="button" class="popup-source">${projects5[0].src}</button>
-      </div>
-    </div>
-  </div>
-<div>`;
-
-const popup6 = `
-<div class="popup-main">
-  <div class="popup-header">
-    <h3 class="multi2">${projects6[0].title}</h3>
-    <button onclick="popupclose6()" class="closebutton">&times;</button>
-  </div>
-  <ul class="popup-langs">
-    <li class="popupli">${projects6[0].tech[0]}</li>
-    <li class="popupli">${projects6[0].tech[1]}</li>
-    <li class="popupli">${projects6[0].tech[2]}</li>
-  </ul>
-  <div class=popup-mainbody>
-    <img src="${projects6[0].image}" alt="Snapshoot Portfolio">
-    <div class="popup-body">
-      <p>${projects6[0].desc}</p>
-      <div class="popup-buttons">
-        <button type="button" class="popup-live">${projects6[0].demo}</button>
-        <button type="button" class="popup-source">${projects6[0].src}</button>
-      </div>
-    </div>
-  </div>
-<div>`;
-
 // content of popup variables are inserted in the divs
 // popwindow variables we created.
 popwindow.innerHTML = popup;
 popwindow1.innerHTML = popup1;
 popwindow2.innerHTML = popup2;
 popwindow3.innerHTML = popup3;
-popwindow4.innerHTML = popup4;
-popwindow5.innerHTML = popup5;
-popwindow6.innerHTML = popup6;
 
 // popwindows div are appended at the beginning of the works section
 // represented by the sectionWorks variable
@@ -422,9 +285,6 @@ sectionWorks.prepend(popwindow);
 sectionWorks.prepend(popwindow1);
 sectionWorks.prepend(popwindow2);
 sectionWorks.prepend(popwindow3);
-sectionWorks.prepend(popwindow4);
-sectionWorks.prepend(popwindow5);
-sectionWorks.prepend(popwindow6);
 
 // class 'close1' is added to popwindows div in order to hide it
 // popwindows html will show with a button click
@@ -432,9 +292,6 @@ popwindow.classList.add('close1');
 popwindow1.classList.add('close1');
 popwindow2.classList.add('close1');
 popwindow3.classList.add('close1');
-popwindow4.classList.add('close1');
-popwindow5.classList.add('close1');
-popwindow6.classList.add('close1');
 
 // This functions are called when the user clicks the 'see project'
 // buttons of each project. Class 'close1' is removed so its content
@@ -454,18 +311,6 @@ function popupwindow2() {
 function popupwindow3() {
   popwindow3.classList.remove('close1');
   popwindow3.classList.add('popup-container');
-}
-function popupwindow4() {
-  popwindow4.classList.remove('close1');
-  popwindow4.classList.add('popup-container');
-}
-function popupwindow5() {
-  popwindow5.classList.remove('close1');
-  popwindow5.classList.add('popup-container');
-}
-function popupwindow6() {
-  popwindow6.classList.remove('close1');
-  popwindow6.classList.add('popup-container');
 }
 
 // This functions are called when the user press the x button in the
@@ -487,18 +332,6 @@ function popupclose3() {
   popwindow3.classList.remove('popup-container');
   popwindow3.classList.add('close1');
 }
-function popupclose4() {
-  popwindow4.classList.remove('popup-container');
-  popwindow4.classList.add('close1');
-}
-function popupclose5() {
-  popwindow5.classList.remove('popup-container');
-  popwindow5.classList.add('close1');
-}
-function popupclose6() {
-  popwindow6.classList.remove('popup-container');
-  popwindow6.classList.add('close1');
-}
 
 // Just for the linters
 popupwindow();
@@ -509,12 +342,6 @@ popupwindow2();
 popupclose2();
 popupwindow3();
 popupclose3();
-popupwindow4();
-popupclose4();
-popupwindow5();
-popupclose5();
-popupwindow6();
-popupclose6();
 
 // LOCAL STORAGE PART
 

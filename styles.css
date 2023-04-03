@@ -6,7 +6,7 @@ body {
   margin: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .mainheader {
     height: 77px;
     display: flex;
@@ -23,7 +23,7 @@ body {
   align-items: flex-start;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .mobile-header {
     height: 77px;
   }
@@ -40,7 +40,7 @@ body {
   transition: font-size 2s;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   #name {
     padding-left: 120px;
   }
@@ -57,7 +57,7 @@ body {
   cursor: pointer;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .boton {
     display: none;
   }
@@ -82,7 +82,7 @@ body {
   font-weight: 700;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .menu {
     display: flex;
     align-items: center;
@@ -105,7 +105,7 @@ li {
   border-right: #091e42;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .li1 {
     margin-bottom: 5px;
     border: none;
@@ -126,7 +126,7 @@ li {
   margin: 0 30px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .ex {
     display: none;
   }
@@ -146,7 +146,7 @@ li {
   font-size: 35px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .options {
     font-size: 24px;
     margin: 0 10px;
@@ -157,7 +157,7 @@ li {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .options:hover {
     color: #3c3a39;
     font-size: 18px;
@@ -183,7 +183,7 @@ li {
   height: 663px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .show {
     display: flex;
     flex-direction: row;
@@ -199,7 +199,7 @@ li {
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .close {
     display: flex;
     height: 77px;
@@ -219,7 +219,7 @@ li {
   align-items: flex-start;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .first-container {
     padding: 0;
     height: 655px;
@@ -253,7 +253,7 @@ li {
   margin: 5px 0 10px 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   #par1 {
     width: 40%;
   }
@@ -265,7 +265,7 @@ li {
   display: flex;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .images1 {
     flex-direction: column;
     padding: 0 40px 0 40px;
@@ -296,7 +296,7 @@ li {
   margin: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .second-container {
     width: 100%;
     display: flex;
@@ -314,7 +314,7 @@ li {
   padding: 40px 0 40px 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   #recent {
     width: 360px;
     margin-left: 32px;
@@ -328,7 +328,7 @@ li {
   margin: 0 0 80px 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .box {
     height: 1px;
     width: 56vw;
@@ -345,8 +345,9 @@ li {
   align-items: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .third-container {
+    max-width: 70vw;
     flex-direction: row;
     align-items: flex-start;
     margin-left: 72px;
@@ -358,10 +359,10 @@ li {
   width: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .img2 {
-    width: 200%;
-    height: 200%;
+    max-width: 100%;
+    height: 100%;
     margin: 0 16px 0 0;
   }
 }
@@ -372,7 +373,7 @@ li {
   align-self: flex-start;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   #multi {
     margin: 0 0 8px 0;
   }
@@ -432,7 +433,7 @@ li {
   margin: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .popup-container {
     width: 100%;
     height: 100vh;
@@ -445,7 +446,7 @@ li {
   background-color: white;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .popup-main {
     width: 80%;
     height: 80%;
@@ -459,7 +460,7 @@ li {
   justify-content: space-between;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .popup-header {
     width: 95%;
     margin: 24px 24px 0 24px;
@@ -472,7 +473,7 @@ li {
   color: #172b4d;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .multi2 {
     margin: 0;
   }
@@ -498,7 +499,7 @@ li {
   justify-content: flex-start;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .popup-langs {
     margin: 8px 0 48px 24px;
     width: 95%;
@@ -511,7 +512,7 @@ li {
   border: 1px solid #979493;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .popup-mainbody {
     display: flex;
     flex-direction: row;
@@ -519,7 +520,7 @@ li {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .popup-body {
     margin: 0 0 0 8px;
     display: flex;
@@ -534,7 +535,7 @@ li {
   height: 250px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .popup-mainbody img {
     margin-left: 8px;
     height: 56vh;
@@ -550,17 +551,18 @@ li {
   line-height: 24px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .popup-body p {
     margin: 0 8px 0 0;
   }
 }
 
 .popup-buttons {
+  display: flex;
   margin-left: 16px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .popup-buttons {
     display: flex;
     margin: 0 0 0 20px;
@@ -576,9 +578,10 @@ li {
   color: white;
   background-color: #ff6b00;
   border: none;
+  cursor: pointer;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .popup-live,
   .popup-source {
     margin: 8px 16px 0 0;
@@ -597,16 +600,17 @@ li {
   align-items: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .fourth-1 {
     display: flex;
     flex-direction: row;
-    width: 84%;
+    justify-items: center;
+    width: 88%;
     margin: 0 48px 0 64px;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .fourth-2 {
     display: flex;
     flex-direction: row;
@@ -616,7 +620,8 @@ li {
 }
 
 .fourth-container {
-  background-image: url("images/placeholder2.png");
+  background-image: url("images/projects_bg.jpg");
+  background-size: cover;
   height: 386px;
   width: 88%;
   margin: 18px 0 0 0;
@@ -627,7 +632,7 @@ li {
   align-items: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .fourth-container {
     margin: 18px 8px 0 8px;
     padding: 0;
@@ -635,7 +640,7 @@ li {
 }
 
 .profesional {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 400;
   line-height: 44px;
   color: white;
@@ -645,7 +650,7 @@ li {
 
 .par3 {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 24px;
   color: white;
   margin-bottom: 0;
@@ -666,6 +671,7 @@ li {
   height: 40px;
   margin: 8px 10px 24px 0;
   color: white;
+  font-weight: 600;
 }
 
 .project2 {
@@ -681,11 +687,11 @@ li {
 
 .container56 {
   background-color: #1c1a19;
-  margin-top: 130px;
+  margin-top: 60px;
   width: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .container56 {
     margin-top: 100px;
     background-color: #262626;
@@ -708,7 +714,7 @@ li {
   border-bottom: 1px solid white;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .fifth-container {
     height: 120%;
     background-image: url("images/background_about_desktop.png");
@@ -725,7 +731,7 @@ li {
   margin: 50px 0 30px 48px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   #about {
     margin: 30px 0 30px 100px;
   }
@@ -739,7 +745,7 @@ li {
   margin: 0 0 30px 48px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   #par4 {
     margin: 0 0 30px 100px;
   }
@@ -755,9 +761,10 @@ li {
   border: none;
   margin: 12px 0 100px 48px;
   padding: 12px;
+  cursor: pointer;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .resume {
     margin: 12px 0 100px 100px;
   }
@@ -773,7 +780,7 @@ li {
   align-items: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .sixth-container {
     flex-direction: row;
     justify-content: space-around;
@@ -781,7 +788,7 @@ li {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .sixth-3 {
     margin-right: 80px;
   }
@@ -805,7 +812,7 @@ li {
   list-style: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .langs4 {
     text-align: left;
   }
@@ -815,6 +822,13 @@ li {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+.head2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 16px;
 }
 
 .vin1 {
@@ -828,7 +842,7 @@ li {
   flex-direction: column;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .seventh-container {
     margin: 88px 80px;
     padding: 88px 0 0 0;
@@ -848,7 +862,7 @@ li {
   padding: 0 20px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .always {
     margin: 0 0 0 24px;
     min-width: 30vw;
@@ -863,7 +877,7 @@ li {
   margin: 0 10px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .forms {
     margin: 0 8px 0 16px;
     padding: 0;
@@ -904,7 +918,7 @@ li {
   width: 200%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .form-item {
     width: 220%;
   }
@@ -920,7 +934,7 @@ li {
   width: 200%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .text-item {
     width: 220%;
     margin: 0 0 0 8px;
@@ -933,7 +947,7 @@ li {
   justify-content: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .litouch {
     justify-content: flex-start;
   }
@@ -951,7 +965,7 @@ li {
   padding: 12px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .touch {
     align-self: flex-start;
     margin: 12px 0 8px 8px;
@@ -965,7 +979,7 @@ li {
   font-size: smaller;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .submit-error {
     align-self: flex-start;
     margin: 12px 0 8px 8px;
