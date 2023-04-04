@@ -4,6 +4,14 @@ html {
 
 body {
   margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.mainheader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 @media (min-width: 1024px) {
@@ -37,17 +45,12 @@ body {
   text-decoration: none;
   min-width: 200px;
   align-self: center;
-  transition: font-size 2s;
 }
 
 @media (min-width: 1024px) {
   #name {
     padding-left: 120px;
   }
-}
-
-#name:hover {
-  font-size: 36px;
 }
 
 .boton {
@@ -153,15 +156,12 @@ li {
     line-height: 20px;
     padding: 8px;
     border-radius: 20%;
-    transition: color 1s, font-size 1s, background-color 1s;
   }
 }
 
 @media (min-width: 1024px) {
   .options:hover {
-    color: #3c3a39;
-    font-size: 18px;
-    background-color: #fff;
+    font-size: 24px;
   }
 }
 
@@ -280,8 +280,8 @@ li {
 }
 
 .img1:hover {
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
 }
 
 .works {

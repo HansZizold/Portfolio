@@ -124,7 +124,7 @@ const projects = [
   {
     title: 'Budget App',
     tech: ['Rails', 'Ruby', 'Tailwind'],
-    image: './images/budget.jpg',
+    image: './images/budget.png',
     desc: 'The <strong>Budget Application</strong> is a mobile web-based tool designed to facilitate easy management of personal finances. The application provides a comprehensive list of transactions organized by category, enabling users to track their spending habits and identify areas of improvement. Developed using the Ruby on Rails framework, both for the front-end and back-end, and styled with the Tailwind framework, the Budget Application delivers a seamless user experience while maintaining a sleek and professional design.',
     demo: 'See Live',
     src: 'See Source',
@@ -134,7 +134,7 @@ const projects1 = [
   {
     title: 'Blog App',
     tech: ['Rails', 'Ruby', 'CSS3'],
-    image: './images/blog.jpg',
+    image: './images/blog.png',
     desc: "Blog App is fully functional website. The application allows for efficient management of blog posts, comments, and likes, empowering users to interact and engage with content seamlessly. With its user-friendly interface and intuitive design, Blog App makes it easy to create and publish new posts, moderate comments, and monitor engagement. Whether you're a blogger looking to expand your reach or a business seeking to enhance your content marketing strategy, Blog App is an ideal solution that can help you achieve your goals",
     demo: 'See Live',
     src: 'See Source',
@@ -144,7 +144,7 @@ const projects2 = [
   {
     title: 'Hyrule Compendium',
     tech: ['React', 'Redux', 'CSS3'],
-    image: './images/zelda.jpg',
+    image: './images/hyrule.png',
     desc: "Hyrule Compendium is a comprehensive web application that showcases a vast array of elements from the popular 'Breath of the Wild' Zelda game. With an intuitive user interface, Hyrule Compendium allows you to easily browse and discover your favorite characters, weapons, items, and locations within the game. Whether you're a seasoned Zelda fan or a new player exploring the world of Hyrule for the first time, Hyrule Compendium provides a wealth of information and resources to enhance your gaming experience",
     demo: 'See Live',
     src: 'See Source',
@@ -154,7 +154,7 @@ const projects3 = [
   {
     title: 'Space Traveler Hub',
     tech: ['React', 'Redux', 'CSS3'],
-    image: './images/space.jpg',
+    image: './images/rocket.png',
     desc: 'Welcome to Space Travelers Hub, a comprehensive web application that allows you to explore a variety of rockets and missions. Our platform offers users the ability to reserve and join exciting missions, enabling them to discover the wonders of space travel like never before. With a user-friendly interface and cutting-edge features, Space Travelers Hub is the ultimate destination for those looking to embark on an adventure beyond our planet.',
     demo: 'See Live',
     src: 'See Source',
@@ -242,8 +242,12 @@ const popup2 = `
     <div class="popup-body">
       <p>${projects2[0].desc}</p>
       <div class="popup-buttons">
-        <button type="button" class="popup-live">${projects2[0].demo}</button>
-        <button type="button" class="popup-source">${projects2[0].src}</button>
+        <a href="https://hyrule-compendium-hpz.netlify.app/" target="_blank">
+          <button type="button" class="popup-live">${projects1[0].demo}</button>
+        </a>
+        <a href="https://github.com/HansZizold/Hyrule_Compendium" target="_blank">
+          <button type="button" class="popup-source">${projects1[0].src}</button>
+        </a>
       </div>
     </div>
   </div>
@@ -265,8 +269,12 @@ const popup3 = `
     <div class="popup-body">
       <p>${projects3[0].desc}</p>
       <div class="popup-buttons">
-        <button type="button" class="popup-live">${projects3[0].demo}</button>
-        <button type="button" class="popup-source">${projects3[0].src}</button>
+        <a href="https://space-travelers-hd.netlify.app/" target="_blank">
+          <button type="button" class="popup-live">${projects1[0].demo}</button>
+        </a>
+        <a href="https://github.com/HansZizold/Space-Travelers-Hub" target="_blank">
+          <button type="button" class="popup-source">${projects1[0].src}</button>
+        </a>
       </div>
     </div>
   </div>
