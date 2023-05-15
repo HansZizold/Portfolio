@@ -188,7 +188,7 @@ const popup = `
     <div class="popup-body">
       <p>${projects[0].desc}</p>
       <div class="popup-buttons">
-        <a href="https://budget-1bv7.onrender.com/groups" target="_blank">
+        <a href="https://small-wave-7734.fly.dev/" target="_blank">
           <button type="button" class="popup-live">${projects[0].demo}</button>
         </a>
         <a href="https://github.com/HansZizold/budget_app" target="_blank">
@@ -215,7 +215,7 @@ const popup1 = `
     <div class="popup-body">
       <p>${projects1[0].desc}</p>
       <div class="popup-buttons">
-        <a href="https://budget-1bv7.onrender.com/groups" target="_blank">
+        <a href="https://cold-brook-8415.fly.dev/" target="_blank">
           <button type="button" class="popup-live">${projects1[0].demo}</button>
         </a>
         <a href="https://github.com/HansZizold/blogapp" target="_blank">

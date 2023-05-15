@@ -754,9 +754,10 @@ li {
 .resume {
   background: #ff6b00;
   align-self: flex-start;
-  height: 48px;
+  height: 20px;
   font-size: 17px;
   font-weight: 700;
+  text-decoration: none;
   color: #fff;
   border: none;
   margin: 12px 0 100px 48px;
