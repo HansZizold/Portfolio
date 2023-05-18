@@ -246,7 +246,7 @@ li {
   margin: 5px 0;
 }
 
-#par1 {
+#intro-paragraph {
   color: #fff;
   font-size: 16px;
   font-weight: 400;
@@ -254,7 +254,7 @@ li {
 }
 
 @media (min-width: 1024px) {
-  #par1 {
+  #intro-paragraph {
     width: 40%;
   }
 }
@@ -379,7 +379,7 @@ li {
   }
 }
 
-#par2 {
+#app-description-1 {
   font-size: 18px;
   line-height: 24px;
   margin: 8px 0 8px 0;
@@ -648,7 +648,7 @@ li {
   padding: 0 12px;
 }
 
-.par3 {
+.app-description-2 {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
@@ -737,7 +737,7 @@ li {
   }
 }
 
-#par4 {
+#context-paragraph {
   color: #f4f5f7;
   font-size: 16px;
   line-height: 24px;
@@ -746,7 +746,7 @@ li {
 }
 
 @media (min-width: 1024px) {
-  #par4 {
+  #context-paragraph {
     margin: 0 0 30px 100px;
   }
 }

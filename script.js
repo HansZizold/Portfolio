@@ -46,7 +46,7 @@ const thirdcontainer = `
   <img src="images/budget.png" alt="placeholder" class="img2">
   <div class="third-container-2">
     <h3 id="multi">Budget App</h3>
-    <p id="par2">The <strong>Budget Application</strong> is a mobile web-based tool designed to facilitate easy management of personal finances. The application provides a comprehensive list of transactions organized by category, enabling users to track their spending habits and identify areas of improvement</p>
+    <p id="app-description-1">The <strong>Budget Application</strong> is a mobile web-based tool designed to facilitate easy management of personal finances. The application provides a comprehensive list of transactions organized by category, enabling users to track their spending habits and identify areas of improvement</p>
     <ul class="langs">
       <li><button type="button" class="langbuttons">Rails</button></li>
       <li><button type="button" class="langbuttons">Ruby</button></li>
@@ -70,7 +70,7 @@ const fourthcontainer1 = `
 <div class="fourth-1">
   <div class="fourth-container">
     <h3 class="profesional">Blog App</h3>
-    <p class="par3">Blog App allows for efficient management of blog posts, comments, and likes, empowering users to interact and engage with content seamlessly. With its user-friendly interface and intuitive design, Blog App makes it easy</p>
+    <p class="app-description-2">Blog App allows for efficient management of blog posts, comments, and likes, empowering users to interact and engage with content seamlessly. With its user-friendly interface and intuitive design, Blog App makes it easy</p>
     <ul class="langs2">
       <li><button type="button" class="langbuttons2">Rails</button></li>
       <li><button type="button" class="langbuttons2">Ruby</button></li>
@@ -81,7 +81,7 @@ const fourthcontainer1 = `
   </div>
   <div class="fourth-container">
     <h3 class="profesional">Hyrule Compendium</h3>
-    <p class="par3">Hyrule Compendium is a comprehensive web application that showcases a vast array of elements from the 'Breath of the Wild' Zelda game. With an intuitive user interface, Hyrule Compendium allows you easily browse and discover</p>
+    <p class="app-description-2">Hyrule Compendium is a comprehensive web application that showcases a vast array of elements from the 'Breath of the Wild' Zelda game. With an intuitive user interface, Hyrule Compendium allows you easily browse and discover</p>
     <ul class="langs2">
       <li><button type="button" class="langbuttons2">React</button></li>
       <li><button type="button" class="langbuttons2">Redux</button></li>
@@ -92,7 +92,7 @@ const fourthcontainer1 = `
   </div>
   <div class="fourth-container">
     <h3 class="profesional">Space Travelers Hub</h3>
-    <p class="par3">Welcome to Space Travelers Hub, a comprehensive web application that allows you to explore a variety of rockets and missions. Our platform offers users the ability to reserve and join exciting missions, enabling them to discover ...</p>
+    <p class="app-description-2">Welcome to Space Travelers Hub, a comprehensive web application that allows you to explore a variety of rockets and missions. Our platform offers users the ability to reserve and join exciting missions, enabling them to discover ...</p>
     <ul class="langs2">
       <li><button type="button" class="langbuttons2">React</button></li>
       <li><button type="button" class="langbuttons2">Redux</button></li>

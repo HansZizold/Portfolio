@@ -1,158 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hans Zizold'sPortfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/61f86712e3.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/61f86712e3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <main class="main-container" id="main-container">
-        <section class="mainheader">
-            <div class="mobile-header" id="mobheader">
-                <h2 id="name">Hans Paul Zizold</h2>
-                <nav class="dropdown">
-                    <button type="button" onclick="dropmenu()" class="boton">
-                        <img src="images/menu.png" alt="Menu">
-                    </button>
-                </nav>            
+      <header class="mainheader">
+        <div class="mobile-header" id="mobheader">
+          <h2 id="name">Hans Paul Zizold</h2>
+          <nav class="dropdown">
+            <button type="button" onclick="dropmenu()" class="boton">
+              <img src="images/menu.png" alt="Menu" />
+            </button>
+          </nav>
+        </div>
+
+        <ul id="mymenu" class="menu">
+          <li class="lic">
+            <a href="#" onclick="closemenu()" class="ex">x</a>
+          </li>
+          <li class="li1">
+            <a href="#recent" onclick="closemenu()" class="options"
+              >Portfolio</a
+            >
+          </li>
+          <li class="li1">
+            <a href="#about" onclick="closemenu()" class="options">About</a>
+          </li>
+          <li class="li1">
+            <a href="#always" onclick="closemenu()" class="options">Contact</a>
+          </li>
+        </ul>
+      </header>
+
+      <section class="first-container">
+        <div class="first-container-1">
+          <h1 id="greeting">
+            Hey There. <br />
+            I'm Hans
+          </h1>
+          <h2 id="whoami">I am a Full Stack developer</h2>
+          <p id="intro-paragraph">
+            I can help you build a product, feature or website Look through some
+            of my work and experience! If you like what you see and have a
+            project you need coded, don’t hesitate to contact me.
+          </p>
+        </div>
+        <div class="first-container-2">
+          <ul class="images1">
+            <li class="l12">
+              <a
+                href="https://www.linkedin.com/in/hanszizold/"
+                target="_blank"
+                rel="noopener"
+              >
+                <img
+                  src="images/instagram.png"
+                  alt="LinkedIn Logo"
+                  class="img1"
+                />
+              </a>
+            </li>
+            <li class="l12">
+              <a
+                href="https://github.com/HansZizold"
+                target="_blank"
+                rel="noopener"
+              >
+                <img src="images/cat.png" alt="Github Logo" class="img1" />
+              </a>
+            </li>
+            <li class="l12">
+              <a
+                href="https://twitter.com/Hanzio_89"
+                target="_blank"
+                rel="noopener"
+              >
+                <img src="images/twitter.png" alt="Twitter Logo" class="img1" />
+              </a>
+            </li>
+            <li class="l12">
+              <a
+                href="https://www.microverse.org/"
+                target="_blank"
+                rel="noopener"
+              >
+                <img
+                  src="images/Microverse.png"
+                  alt="Microverse Logo"
+                  class="img1"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="works"></section>
+
+      <section class="container56">
+        <div class="fifth-container">
+          <h3 id="about">About me</h3>
+          <p id="context-paragraph">
+            Hello I am a software developer! I can help you build a product,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hesitate to contact me.
+          </p>
+
+          <a
+            href="https://docs.google.com/document/d/1GDcN007gM6ozJsrOrCZh1hjN13y_Uj5ZMa3Z3k3U_js/edit?usp=sharing"
+            target="_blank"
+            rel="noopener"
+            class="resume"
+            >Get My Resume</a
+          >
+        </div>
+
+        <div class="sixth-container">
+          <div class="sixth-1">
+            <div class="head1">
+              <img class="vin1" src="images/rhombus.png" alt="rhombus" />
+              <p class="langs3">Language</p>
             </div>
 
-            <ul id="mymenu" class="menu">
-                <li class="lic"><a href="#" onclick="closemenu()" class="ex">x</a></li>
-                <li class="li1"><a href="#recent" onclick="closemenu()" class="options">Portfolio</a></li>
-                <li class="li1"><a href="#about" onclick="closemenu()" class="options">About</a></li>
-                <li class="li1"><a href="#always" onclick="closemenu()" class="options">Contact</a></li>
+            <ul class="langs4">
+              <li>Javascript</li>
+              <li>Ruby</li>
+              <li>Python</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
             </ul>
-        </section>
+          </div>
 
-        <section class="first-container">
-            <div class="first-container-1">
-                <h1 id="greeting">Hey There. <br> I'm Hans</h1>
-                <h2 id="whoami">I am a Full Stack developer</h2>
-                <p id="par1">I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
-                </p>
-            </div>
-            <div class="first-container-2">
-                <ul class="images1">
-                    <li class="l12">
-                        <a href="https://www.linkedin.com/in/hanszizold/" target="_blank" rel="noopener">
-                            <img src="images/instagram.png" alt="linkedin" class="img1">
-                        </a>
-                    </li>
-                    <li class="l12">
-                        <a href="https://github.com/HansZizold" target="_blank" rel="noopener">
-                            <img src="images/cat.png" alt="Github" class="img1">
-                        </a>
-                    </li>
-                    <li class="l12">
-                        <a href="https://twitter.com/Hanzio_89" target="_blank" rel="noopener">
-                            <img src="images/twitter.png" alt="twitter" class="img1">
-                        </a>
-                    </li>
-                    <li class="l12">
-                        <a href="https://www.microverse.org/" target="_blank" rel="noopener">
-                            <img src="images/Microverse.png" alt="Microverse" class="img1">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="works">
-        </section>
-
-        <section class="container56">
-            <div class="fifth-container">
-                <h3 id="about">About me</h3>
-                <p id="par4">Hello I am a software developer! I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
-
-                <a href="https://docs.google.com/document/d/1GDcN007gM6ozJsrOrCZh1hjN13y_Uj5ZMa3Z3k3U_js/edit?usp=sharing" target="_blank" rel="noopener" class="resume">Get My Resume</a>
-
+          <div class="sixth-2">
+            <div class="head1">
+              <img class="vin1" src="images/square.png" alt="square" />
+              <p class="langs3">Frameworks</p>
             </div>
 
-            <div class="sixth-container">
-                <div class="sixth-1">
-                    <div class="head1">
-                        <img class="vin1" src="images/rhombus.png" alt="rhombus">
-                        <p class="langs3">Language
-                    </div>
-              
-                    <ul class="langs4">
-                        <li>Javascript</li>
-                        <li>Ruby</li>
-                        <li>Python</li>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                    </ul>
-                </div>
+            <ul class="langs4">
+              <li>Ruby on Rails</li>
+              <li>React&Redux</li>
+              <li>Tailwind</li>
+            </ul>
+          </div>
 
-                <div class="sixth-2">
-                    <div class="head1">
-                        <img class="vin1" src="images/square.png" alt="square">
-                        <p class="langs3">Frameworks
-                    </div>
-
-                    <ul class="langs4">
-                        <li>Ruby on Rails</li>
-                        <li>React&Redux</li>
-                        <li>Tailwind</li>
-                    </ul>
-                </div>
-
-                <div class="sixth-3">
-                    <div class="head2">
-                        <img class="vin1" src="images/circle.png" alt="circle">
-                        <p class="langs3">Skills
-                    </div>
-
-                    <ul class="langs4">
-                        <li>Teamwork</li>
-                        <li>Leadership</li>
-                        <li>Peer Programming</li>
-                        <li>Integrity</li>
-                        <li>Accountability</li>
-                    </ul>
-                </div>                    
+          <div class="sixth-3">
+            <div class="head2">
+              <img class="vin1" src="images/circle.png" alt="circle" />
+              <p class="langs3">Skills</p>
             </div>
-        </section>
 
-        <section>
-            <div class="seventh-container">
-                <h3 class="always" id="always">I'm always interested in hearing things about new projects, so if you'd like to chat please get in touch</h3>
-                <form action="https://formspree.io/f/xeqnpkpe" method="post" id="senddata">
-                    <ul class="forms" id="forms">
-                        <li class="li4">
-                            <label for="name1"></label>
-                            <input type="text" class="form-item" id="name1" name="user_name" required placeholder="Full name" maxlength="30" onkeyup="validateName()">
-                            <span class="input-error" id="name-error"></span>
-                        </li>
-                        <li class="li4">
-                            <label for="mail"></label>
-                            <input type="email" class="form-item" id="mail" name="user_email" required placeholder="Email address" onkeyup="validateEmail()">
-                            <span class="input-error" id="email-error"></span>
-                        </li>
-                        <li class="li4">
-                            <label for="msg"></label>
-                            <textarea class="text-item" id="msg" name="user_message" maxlength="500" required placeholder="Enter text here" onkeyup="validateText()"></textarea>
-                            <span class="text-error" id="text-error"></span>
-                        </li>
-                        <li class="litouch">
-                            <input class="touch" id="touch" type="submit" value="Get in touch" onclick="validateForm()">
-                            <span class="submit-error" id="submit-error"></span>
-                        </li>
-                    </ul>
-                </form>                
-               
-            </div>
-        </section>
+            <ul class="langs4">
+              <li>Teamwork</li>
+              <li>Leadership</li>
+              <li>Peer Programming</li>
+              <li>Integrity</li>
+              <li>Accountability</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
+      <section>
+        <div class="seventh-container">
+          <h3 class="always" id="always">
+            I'm always interested in hearing things about new projects, so if
+            you'd like to chat please get in touch
+          </h3>
+          <form
+            action="https://formspree.io/f/xeqnpkpe"
+            method="post"
+            id="senddata"
+          >
+            <ul class="forms" id="forms">
+              <li class="li4">
+                <input
+                  type="text"
+                  class="form-item"
+                  id="name1"
+                  name="user_name"
+                  required
+                  placeholder="Full name"
+                  maxlength="30"
+                  onkeyup="validateName()"
+                />
+                <span class="input-error" id="name-error"></span>
+              </li>
+              <li class="li4">
+                <input
+                  type="email"
+                  class="form-item"
+                  id="mail"
+                  name="user_email"
+                  required
+                  placeholder="Email address"
+                  onkeyup="validateEmail()"
+                />
+                <span class="input-error" id="email-error"></span>
+              </li>
+              <li class="li4">
+                <textarea
+                  class="text-item"
+                  id="msg"
+                  name="user_message"
+                  maxlength="500"
+                  required
+                  placeholder="Enter text here"
+                  onkeyup="validateText()"
+                ></textarea>
+                <span class="text-error" id="text-error"></span>
+              </li>
+              <li class="litouch">
+                <input
+                  class="touch"
+                  id="touch"
+                  type="submit"
+                  value="Get in touch"
+                  onclick="validateForm()"
+                />
+                <span class="submit-error" id="submit-error"></span>
+              </li>
+            </ul>
+          </form>
+        </div>
+      </section>
     </main>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
