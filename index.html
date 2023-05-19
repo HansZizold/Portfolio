@@ -23,7 +23,7 @@
         <div class="mobile-header" id="mobheader">
           <h2 id="name">Hans Paul Zizold</h2>
           <nav class="dropdown">
-            <button type="button" onclick="dropmenu()" class="boton">
+            <button type="button" class="boton">
               <img src="images/menu.png" alt="Menu" />
             </button>
           </nav>
@@ -31,18 +31,16 @@
 
         <ul id="mymenu" class="menu">
           <li class="lic">
-            <a href="#" onclick="closemenu()" class="ex">x</a>
+            <a href="#" class="ex common">x</a>
           </li>
           <li class="li1">
-            <a href="#recent" onclick="closemenu()" class="options"
-              >Portfolio</a
-            >
+            <a href="#recent" class="options common">Portfolio</a>
           </li>
           <li class="li1">
-            <a href="#about" onclick="closemenu()" class="options">About</a>
+            <a href="#about" class="options common">About</a>
           </li>
           <li class="li1">
-            <a href="#always" onclick="closemenu()" class="options">Contact</a>
+            <a href="#always" class="options common">Contact</a>
           </li>
         </ul>
       </header>
@@ -134,7 +132,7 @@
         <div class="sixth-container">
           <div class="sixth-1">
             <div class="head1">
-              <img class="vin1" src="images/rhombus.png" alt="rhombus" />
+              <img class="vin1" src="images/rhombus.png" alt="" />
               <p class="langs3">Language</p>
             </div>
 
@@ -149,7 +147,7 @@
 
           <div class="sixth-2">
             <div class="head1">
-              <img class="vin1" src="images/square.png" alt="square" />
+              <img class="vin1" src="images/square.png" alt="" />
               <p class="langs3">Frameworks</p>
             </div>
 
@@ -162,7 +160,7 @@
 
           <div class="sixth-3">
             <div class="head2">
-              <img class="vin1" src="images/circle.png" alt="circle" />
+              <img class="vin1" src="images/circle.png" alt="" />
               <p class="langs3">Skills</p>
             </div>
 
@@ -198,7 +196,6 @@
                   required
                   placeholder="Full name"
                   maxlength="30"
-                  onkeyup="validateName()"
                 />
                 <span class="input-error" id="name-error"></span>
               </li>
@@ -210,7 +207,6 @@
                   name="user_email"
                   required
                   placeholder="Email address"
-                  onkeyup="validateEmail()"
                 />
                 <span class="input-error" id="email-error"></span>
               </li>
@@ -222,7 +218,6 @@
                   maxlength="500"
                   required
                   placeholder="Enter text here"
-                  onkeyup="validateText()"
                 ></textarea>
                 <span class="text-error" id="text-error"></span>
               </li>
@@ -232,7 +227,6 @@
                   id="touch"
                   type="submit"
                   value="Get in touch"
-                  onclick="validateForm()"
                 />
                 <span class="submit-error" id="submit-error"></span>
               </li>
@@ -241,6 +235,6 @@
         </div>
       </section>
     </main>
-    <script src="script.js"></script>
+    <script src="script.js" type="module"></script>
   </body>
 </html>
