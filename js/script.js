@@ -19,71 +19,57 @@ secondcontainerdiv.innerHTML = secondcontainer;
 // inside the section works represented with the variable works
 works.appendChild(secondcontainerdiv);
 
+// card generator
+function generateProjectCard(project, titleClass, descriptionClass, buttonClass, toolsClass, containerClass, hasImage = false) {
+  const imageHTML = hasImage ? `<img src="${project.image}" alt="${project.title}" class="img2">` : "";
+  return `
+    <div class="${containerClass}">
+      ${imageHTML}
+      <div class="${containerClass}-2">
+        <h3 class="${titleClass}">${project.title}</h3>
+        <p class="${descriptionClass}">${project.desc_short}</p>
+        <ul class="${toolsClass}">
+          ${project.tech
+            .map(
+              (tech) =>
+                `<li><button type="button" class="${toolsClass}-1">${tech}</button></li>`
+            )
+            .join("")}
+        </ul>
+        <button type="button" class="${buttonClass}" data-index="${project.index}">See Project</button>
+      </div>
+    </div>`;
+}
+
 // First project
 // create a variable containing the third container html code
-const thirdcontainer = `
-<div class="third-container" id="third-container">
-  <img src="${projects[0].image}" alt="${projects[0].title}" class="img2">
-  <div class="third-container-2">
-    <h3 id="multi">${projects[0].title}</h3>
-    <p id="app-description-1">${projects[0].desc_short}</p>
-    <ul class="langs">
-      ${projects[0].tech
-        .map(
-          (tech) =>
-            `<li><button type="button" class="langbuttons">${tech}</button></li>`
-        )
-        .join("")}
-    </ul>
-    <button type="button" class="project"">See Project</button>
-    </div>
-</div>`;
-// create a div and assign to 'thirdcontainerdiv variable
-const thirdcontainerdiv = document.createElement("div");
-// load the thirdcontainer html content inside the div
-// variable we just created (thirdcontainerdiv)
-thirdcontainerdiv.innerHTML = thirdcontainer;
-// insert the html code stored in the thirdcontainerdiv variable
-// inside the section works represented with the variable works
-works.appendChild(thirdcontainerdiv);
-const firstProjectButton = document.querySelector('.project');
-firstProjectButton.addEventListener('click', () => {
+projects[0].index = 0; // add index to the first project
+const firstProjectHTML = generateProjectCard(projects[0], 'multi', 'app-description-1', 'project', 'tools', 'third-container', true);
+// create a div and assign to 'firstProjectHTMLdiv' variable
+const firstProjectHTMLdiv = document.createElement("div");
+// load the firstProjectHTML content inside the div variable we just created
+firstProjectHTMLdiv.innerHTML = firstProjectHTML;
+// insert the html code stored in the firstProjectHTMLdiv variable inside the section works represented with the variable works
+works.appendChild(firstProjectHTMLdiv);
+const firstProjectButton = document.querySelector(".project");
+firstProjectButton.addEventListener("click", () => {
   popupOpen(0);
 });
 
-// The other of the projects
-const otherProjects = projects.slice(1);
-let fourthcontainer1 = `<div class="fourth-1">`;
-otherProjects.forEach((project, index) => {
-  fourthcontainer1 += `
-    <div class="fourth-container">
-      <h3 class="profesional">${project.title}</h3>
-      <p class="app-description-2">${project.desc_short}</p>
-      <ul class="langs2">
-        ${project.tech
-          .map(
-            (tech) =>
-              `<li><button type="button" class="langbuttons2">${tech}</button></li>`
-          )
-          .join("")}
-      </ul>
-      <button type="button" class="project2" data-index="${index + 1}">See Project</button>
-    </div>`;
-});
-fourthcontainer1 += `</div>`;
-// create a div and assign to 'fourthcontainer1div variable
-const fourthcontainer1div = document.createElement("div");
-// load the fourthcontainer1 html content inside the div variable
-// we just created (fourthcontainer1div)
-fourthcontainer1div.innerHTML = fourthcontainer1;
-// insert the html code stored in the fourthontainer1div variable
-// inside the section works represented with the variable works
-works.appendChild(fourthcontainer1div);
+// Other projects
+let otherProjectsHTML = projects.slice(1).map((project, index) => {
+  project.index = index + 1;  // Adjust the index
+  return generateProjectCard(project, 'profesional', 'app-description-2', 'project2', 'tools2', 'fourth-container');
+}).join('');
+const otherProjectsHTMLdiv = document.createElement("div");
+otherProjectsHTMLdiv.className = "fourth-1";  // Set the class of the div to 'fourth-1'
+otherProjectsHTMLdiv.innerHTML = otherProjectsHTML;
+works.appendChild(otherProjectsHTMLdiv);
 
-const projectButtons = document.querySelectorAll('.project2');
-projectButtons.forEach(button => {
-  button.addEventListener('click', (event) => {
-    const index = event.target.getAttribute('data-index');
+const projectButtons = document.querySelectorAll(".project2");
+projectButtons.forEach((button) => {
+  button.addEventListener("click", (event) => {
+    const index = event.target.getAttribute("data-index");
     popupOpen(index);
   });
 });

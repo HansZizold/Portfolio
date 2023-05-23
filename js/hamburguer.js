@@ -1,5 +1,3 @@
-// HAMBURGUER PART
-
 document.querySelector(".boton").addEventListener("click", dropmenu);
 function dropmenu() {
   const nav = document.querySelector("#mymenu");

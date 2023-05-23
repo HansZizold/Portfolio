@@ -5,7 +5,7 @@ export const projects = [
     image: './images/budget.png',
     desc_short: 'The <strong>Budget Application</strong> is a mobile web-based tool designed to facilitate easy management of personal finances. The application provides a comprehensive list of transactions organized by category, enabling users to track their spending habits and identify areas of improvement',
     desc_long: 'The <strong>Budget Application</strong> is a mobile web-based tool designed to facilitate easy management of personal finances. The application provides a comprehensive list of transactions organized by category, enabling users to track their spending habits and identify areas of improvement. Developed using the Ruby on Rails framework, both for the front-end and back-end, and styled with the Tailwind framework, the Budget Application delivers a seamless user experience while maintaining a sleek and professional design.',
-    demo: 'https://small-wave-7734.fly.dev/',
+    demo: 'https://throbbing-dawn-8551.fly.dev/users/sign_in',
     src: 'https://github.com/HansZizold/budget_app',
   },
   {

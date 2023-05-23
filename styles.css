@@ -367,32 +367,32 @@ li {
   }
 }
 
-#multi {
+.multi {
   font-size: 32px;
   margin: 20px 0 8px 0;
   align-self: flex-start;
 }
 
 @media (min-width: 1024px) {
-  #multi {
+  .multi {
     margin: 0 0 8px 0;
   }
 }
 
-#app-description-1 {
+.app-description-1 {
   font-size: 18px;
   line-height: 24px;
   margin: 8px 0 8px 0;
 }
 
-.langs {
+.tools {
   display: flex;
   list-style: none;
   align-self: flex-start;
   padding: 0;
 }
 
-.langbuttons {
+.tools-1 {
   border: 1px solid #8993a4;
   padding: 10px 12px 10px 12px;
   height: 40px;
@@ -620,6 +620,11 @@ li {
 }
 
 .fourth-container {
+  display: flex;
+  justify-content: center;
+}
+
+.fourth-container-2 {
   background-image: url("images/projects_bg.jpg");
   background-size: cover;
   height: 386px;
@@ -657,14 +662,14 @@ li {
   padding: 0 12px;
 }
 
-.langs2 {
+.tools2 {
   display: flex;
   list-style: none;
   align-self: space-around;
   padding: 0;
 }
 
-.langbuttons2 {
+.tools2-1 {
   border: none;
   background-color: rgba(255, 255, 255, 0.24);
   padding: 10px 12px 10px 12px;
