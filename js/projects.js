@@ -14,7 +14,7 @@ export const projects = [
     image: './images/blog.png',
     desc_short: 'The Blog App allows for efficient management of blog posts, comments, and likes, empowering users to interact and engage with content seamlessly. With its user-friendly interface and intuitive design, Blog App makes it easy',
     desc_long: "Blog App is fully functional website. The application allows for efficient management of blog posts, comments, and likes, empowering users to interact and engage with content seamlessly. With its user-friendly interface and intuitive design, Blog App makes it easy to create and publish new posts, moderate comments, and monitor engagement. Whether you're a blogger looking to expand your reach or a business seeking to enhance your content marketing strategy, Blog App is an ideal solution that can help you achieve your goals",
-    demo: 'https://cold-brook-8415.fly.dev/',
+    demo: 'https://red-fire-2262.fly.dev/',
     src: 'https://github.com/HansZizold/blogapp',
   },
   {
