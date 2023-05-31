@@ -1,4 +1,4 @@
-export const projects = [
+const projects = [
   {
     title: 'Budget App',
     tech: ['Rails', 'Ruby', 'Tailwind'],
@@ -34,5 +34,6 @@ export const projects = [
     desc_long: 'Welcome to Space Travelers Hub, a comprehensive web application that allows you to explore a variety of rockets and missions. Our platform offers users the ability to reserve and join exciting missions, enabling them to discover the wonders of space travel like never before. With a user-friendly interface and cutting-edge features, Space Travelers Hub is the ultimate destination for those looking to embark on an adventure beyond our planet.',
     demo: 'https://space-travelers-hd.netlify.app/',
     src: 'https://github.com/HansZizold/Space-Travelers-Hub',
-  }
+  },
 ];
+export default projects;

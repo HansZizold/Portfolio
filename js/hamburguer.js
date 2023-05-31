@@ -1,20 +1,20 @@
-document.querySelector(".boton").addEventListener("click", dropmenu);
 function dropmenu() {
-  const nav = document.querySelector("#mymenu");
-  nav.classList.add("show");
-  nav.classList.remove("menu");
-  const mobHeader = document.querySelector("#mobheader");
-  mobHeader.classList.toggle("close");
+  const nav = document.querySelector('#mymenu');
+  nav.classList.add('show');
+  nav.classList.remove('menu');
+  const mobHeader = document.querySelector('#mobheader');
+  mobHeader.classList.toggle('close');
 }
+document.querySelector('.boton').addEventListener('click', dropmenu);
 
-document.querySelectorAll(".common").forEach(function (element) {
-  element.addEventListener("click", closemenu);
-});
 function closemenu() {
-  const nav = document.querySelector("#mymenu");
-  nav.classList.remove("show");
-  nav.classList.add("menu");
-  const mobHeader = document.querySelector("#mobheader");
-  mobHeader.classList.remove("close");
-  mobHeader.classList.add("mobile-header");
+  const nav = document.querySelector('#mymenu');
+  nav.classList.remove('show');
+  nav.classList.add('menu');
+  const mobHeader = document.querySelector('#mobheader');
+  mobHeader.classList.remove('close');
+  mobHeader.classList.add('mobile-header');
 }
+document.querySelectorAll('.common').forEach((element) => {
+  element.addEventListener('click', closemenu);
+});
