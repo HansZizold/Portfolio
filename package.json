@@ -14,6 +14,7 @@
   "description": "In this project first a mobile version will de deployed and then a desktop version.\r 2022 - Week 19: Popup window showing projects details added. Form validation using JS added. Hamburguer button functionality added. All of these new functionalities were implemented using JavaScript.",
   "version": "1.0.0",
   "main": "script.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
