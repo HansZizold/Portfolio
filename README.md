@@ -31,7 +31,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [PORTFOLIO] <a name="about-project"></a>
+# 📖 PORTFOLIO <a name="about-project"></a>
 
 > Welcome to my professional portfolio! This project is a showcase of my software development skills, experience, and projects. This portfolio was built using HTML, CSS, and JavaScript. It's designed to be a comprehensive display of my programming abilities and to give viewers a clear understanding of my skills, style, and capabilities.
 
@@ -62,12 +62,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **Fully responsive design to ensure a smooth user experience on all devices and screen sizes.**
 - **Interactive UI elements built using vanilla JavaScript.**
 - **Optimized performance and efficient code following best coding practices.**
-- **SEO friendly with meta tags and meaningful structure.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
