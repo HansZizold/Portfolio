@@ -1,46 +1,187 @@
-# PORTFOLIO PROJECT
+<a name="readme-top"></a>
 
-## DESCRIPTION
-In this project first a mobile version will de deployed and then a desktop version.
-2022 - Week 19: Popup window showing projects details added. Form validation using JS added. Hamburguer button functionality added. All of these new functionalities were implemented using JavaScript.
+<div align="center">
+  <h3><b>HANS ZIZOLD's PORTFOLIO</b></h3>
 
-**Template #2** from figma was chosen as a model.
+</div>
 
-## BUILT WITH
-*Visual Studio Code*
-*Github Desktop application*
+<!-- TABLE OF CONTENTS -->
 
-## HISTORY OF CHANGES
-Preserv data from the user using local storage implemented: **May 13th**.
-Data form validation added. Only permit email in lowercase: **May 12th**.
-HTML code from projects inserted using JS. **May 11th**.
-Popup window pressing 'See Project' buttons to see more details implemented. **May 11th**.
-Mobile Menu implementation using JavaScript: **May 9th**.
-Minor width corrections for improve responsiveness: **May 9th**.
-Portfolio published with Github Pages: **May 2nd**.
+# 📗 Table of Contents
 
-Portfolio Desktop Version: 
-    First submission on April 28th: 
-        index.html, styles.css modified in order to support desktop. Icons and images added.
-    Second submission on April 29th
-        Readme.md file improved.
-        In the main header, nav menu implemented according to figma design.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-Portfolio Mobile Version: finished on April 22th.
+<!-- PROJECT DESCRIPTION -->
 
-## LIVE DEMO: 
+# 📖 [PORTFOLIO] <a name="about-project"></a>
 
-Hans Zizold's Portfolio: https://hanszizold.github.io/Portfolio/
+> Welcome to my professional portfolio! This project is a showcase of my software development skills, experience, and projects. This portfolio was built using HTML, CSS, and JavaScript. It's designed to be a comprehensive display of my programming abilities and to give viewers a clear understanding of my skills, style, and capabilities.
 
-Author: Hans Paul Zizold
-    GITHUB: https://github.com/HansZizold
-    Linkedin: https://www.linkedin.com/in/hans-paul-zizold-37129037/
+## 🛠 Built With <a name="built-with"></a>
 
-Colaborators: 
-    Isa Marvin
-    GITHUB: https://github.com/IsaMarvin    
-    
-    Mauricio Gallegos
-    GITHUB: https://github.com/maury18
+### Tech Stack <a name="tech-stack"></a>
 
-**Thanks MICROVERSE!!!**
+<details>
+  <summary>Markup Language</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Styling</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Programming Language</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a>
+  </ul>
+</details>
+
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+- **Fully responsive design to ensure a smooth user experience on all devices and screen sizes.**
+- **Interactive UI elements built using vanilla JavaScript.**
+- **Optimized performance and efficient code following best coding practices.**
+- **SEO friendly with meta tags and meaningful structure.**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://hanszizold.github.io/Portfolio/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+- A modern web browser that supports HTML, CSS, and JavaScript. Most recent versions of Google Chrome, Firefox, Safari, or Edge would suffice.
+- A text editor to view or edit the code, Visual Studio Code is recommended, but there are others.
+- Git installed on your system if you wish to clone the repository.
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  git clone https://github.com/HansZizold/Portfolio
+  cd Portfolio
+```
+
+### Install
+
+Install this project with:
+
+```sh
+  npm install
+```
+
+### Usage
+
+To run the project, if you are usind VSCODE you can do:
+
+```sh
+  code .
+```
+
+- In VSCode, install the Live Server extension.
+- Right-click on the index.html file in the Explorer view on the left, and select "Open with Live Server"
+
+### Run tests
+
+Currently, there are no tests for this project. This might change in future updates.
+
+### Deployment
+
+This project can be deployed using GitHub Pages:
+
+1. Push your code to a repository on GitHub.
+2. Navigate to the 'Settings' tab of the repository.
+3. Scroll down to the 'GitHub Pages' section.
+4. Select the branch you wish to deploy from.
+5. Click 'Save'.
+6. Your site should be live at the provided URL.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Hans Zizold**
+
+- GitHub:[@githubhandle](https://github.com/HansZizold) 
+- Twitter:[@twitterhandle](https://twitter.com/hanzio27) 
+- LinkedIn:[LinkedIn](https://www.linkedin.com/in/hans-paul-zizold-37129037/) 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- **Blog Section:** A space to share my experiences and thoughts on current tech trends.
+- **Interactive Demo Reels of Projects:** Showcase my projects in a more interactive manner for users to experience functionality without leaving my portfolio.
+- **Testimonials or Endorsements:** Feature testimonials from past clients or teammates to add credibility to my work.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/HansZizold/Portfolio/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+Give a ⭐️ if you like this project!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank...
+
+- My loving family 😊
+- My partners from Microverse
+- Inspiration, Dedication
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
